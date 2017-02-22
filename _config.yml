@@ -16,8 +16,9 @@
 title: Shimon Rura
 email: shimon@rura.org
 description: > # this means to ignore newlines until "baseurl:"
-  Shimon Rura is a software product guy, dad, husband, and home improvement
+  Shimon Rura is a software product guy, dad, husband, and all-around
   geek living in Cambridge, Massachusetts.
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -27,6 +28,7 @@ footer-links:
   github: shimon
   twitter: shimonrura
   #facebook: shimonrura
+  rss: hell yeah
 
 # Build settings
 markdown: kramdown

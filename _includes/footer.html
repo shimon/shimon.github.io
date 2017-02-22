@@ -2,28 +2,9 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
     <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>
-            {% if site.author %}
-              {{ site.author | escape }}
-            {% else %}
-              {{ site.title | escape }}
-            {% endif %}
-            </li>
-            {% if site.email %}
-            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {% endif %}
-            <li>
-              {% include svg-icons.html %}
-            </li>
-        </ul>
-      </div>
-
       <div class="footer-col footer-col-2">
+        <img src="{{ site.url }}/images/shimon-500x500.jpg"/>
         {% comment %}
         <ul class="social-media-list">
           {% if site.github_username %}
@@ -42,8 +23,23 @@
         {% endcomment %}
       </div>
 
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>
+            <h2 class="footer-heading">{{ site.title | escape }}</h2>
+            {% if site.email %}
+            <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+            {% endif %}
+          </li>
+          <li>
+            {% include svg-icons.html %}
+          </li>
+        </ul>
+      </div>
+
       <div class="footer-col footer-col-3">
         <p>{{ site.description | escape }}</p>
+        <p style="text-align:right">© {{site.time|date:"%Y"}}</p>
       </div>
     </div>
 

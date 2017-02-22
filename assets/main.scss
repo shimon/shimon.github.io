@@ -11,15 +11,19 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
+//$grey-color:       #828282;
+$grey-color:       #828282;
+$grey-color-ultralight: lighten($grey-color, 45%);
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
 $text-color:       #111;
-$background-color: #fdfdfd;
+//$background-color: #fdfdfd;
+$background-color: $grey-color-ultralight;
+$main-background-color: #fdfdfd;
 //$brand-color:      #2a7ae2;
 $brand-color:      #054190;
 
-//$grey-color:       #828282;
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
 
 
 // borrow svg-icons from https://github.com/barryclark/jekyll-now
@@ -28,3 +32,24 @@ $grey-color-dark:  darken($grey-color, 25%);
 // now load the theme
 @import "{{ site.theme }}";
 
+
+
+// override footer sizes
+.footer-col-1 {
+  width: -webkit-calc(25% - (#{$spacing-unit} / 2));
+  width:         calc(25% - (#{$spacing-unit} / 2));
+}
+
+.footer-col-2 {
+  width: -webkit-calc(20% - (#{$spacing-unit} / 2));
+  width:         calc(20% - (#{$spacing-unit} / 2));
+}
+
+.footer-col-3 {
+  width: -webkit-calc(55% - (#{$spacing-unit} / 2));
+  width:         calc(55% - (#{$spacing-unit} / 2));
+}
+
+.site-footer img { border-radius: 5px; }
+.footer-heading {color: black; margin-bottom: 0;}
+main { background-color: $main-background-color; }

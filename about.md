@@ -1,17 +1,22 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /shimon/
+tags: in-header
 ---
 
-lalala
+I'm a software product guy. I've worked as a product manager and engineer in
+big and small companies, freelanced, started a company of my own, and
+launched dozens of products. I work as a consultant helping
+companies with product and engineering management challenges. Previously I
+was CTO at [Happie](http://gethappie.me), managed products at
+[PatientsLikeMe](http://patientslikeme.com) and
+[Smarterer](http://smarterer.com), and held a range of engineering
+positions.
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+* [Ask for product help or advice](mailto:shimon@rura.org?subject=help%20with%20my%20product)
+* [My Resume (PDF)](/shimon/about/resume.pdf)
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+When I'm not making software products, I'm usually spending time with my two
+kids, Clara and Aaron, and my wonderful wife Nicole. I also enjoy home
+improvement, improv comedy, and ice cream.
