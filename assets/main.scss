@@ -22,7 +22,7 @@ $text-color:       #111;
 $background-color: $grey-color-ultralight;
 $main-background-color: #fdfdfd;
 //$brand-color:      #2a7ae2;
-$brand-color:      #054190;
+$brand-color:      #1741BA;
 
 
 
@@ -53,3 +53,5 @@ $brand-color:      #054190;
 .site-footer img { border-radius: 5px; }
 .footer-heading {color: black; margin-bottom: 0;}
 main { background-color: $main-background-color; }
+.page-content ul { margin-bottom: 15px !important; }
+.page-content hr { margin-bottom: 15px !important; color: $grey-color-light; }
