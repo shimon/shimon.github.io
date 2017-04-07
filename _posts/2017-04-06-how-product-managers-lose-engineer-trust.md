@@ -15,12 +15,12 @@ things go haywire with one of the most important groups: the engineers.
 I started my career as a software engineer, so I naturally empathize with
 this group. But since I switched to product management a few years ago, I'm
 also acutely aware of the challenges engineers can pose. There's a natural
-tension between PMs-- who always want more things faster-- and engineers who
+tension between PMs---who always want more things faster---and engineers who
 are on the hook to build and maintain systems. You can't solve this tension;
 it's inherent to the responsibilities and cultures of these roles. So your
 best bet is to negotiate it from a position of mutual trust and respect.
 
-**But what if you just want to blow up that trust and respect, like a giant torpedo from outer space?** Here are some destructive tricks that I've seen work!
+Unfortunately, there are some **dangerous pitfalls** that can undermine that trust and respect. The ones below are especially pernicious because they're tempting.
 <!--more-->
 
 
@@ -28,9 +28,9 @@ best bet is to negotiate it from a position of mutual trust and respect.
 
 Let's face it: the median PM is about 0.00001% as good as Steve Jobs. But thinks he's about 10% as good.
 
-The reason this pitfall is so tempting is partly because many PMs rely on it personally. Sure most new products fail, and most startups fail. But they don't know *me* and *my product.* We're unstoppable.
+One reason it can be tempting to tell this lie is because many PMs rely on it personally. Sure most new products fail, and most startups fail. But they don't know *me* and *my product.* We're unstoppable.
 
-If you have this deep belief, this faith that you will ultimately succeed: **nurture it.** Do not tone down your ambitions and pick easier problems. Rather, accept that on the way to your big wins you will have setbacks and grinds. You will painstakingly build and ship things that turn out to be dead ends. Good product management help you get right faster, but it's still through an iterative process, which means **your big wins come through a lot of small steps.**
+If you have this deep belief, this faith that you will ultimately succeed: **nurture it for yourself.** Do not tone down your ambitions and pick easier problems. Rather, accept that on the way to your big wins you will have setbacks and grinds. You will painstakingly build and ship things that turn out to be dead ends. Good product management help you get right faster, but it's still through an iterative process, which means **your big wins come through a lot of small steps.**
 
 On the other hand, if you say "here's a sketch of the new app, once you build these three screens I'm confident 100k people will download, we don't need no marketing plan"... well, you're setting everyone up for disappointment. Either they're already jaded enough to tune out that hyperoptimism, or they will be in two weeks.
 
@@ -38,7 +38,7 @@ On the other hand, if you say "here's a sketch of the new app, once you build th
 
 Lots of the work of a PM is just good follow-up: documenting decisions, resolving conflict, fighting fires. But a great PM will do all of this in the context of a vision that excites and motivates the whole team. This doesn't have to be a vision *you created,* but it is your responsibility to understand it and make sure everyone on your team gets it too.
 
-That doesn't mean every coder has to understand the nuances of buyer motivation. But your goal is to promulgate a vision that everyone can get behind, not just in a grand inspiration sense, but in a way that shapes their daily decisions. For engineers, the product vision is often the first and broadest guide to knowing which stuff needs to built out to Advanced Super Scalable Polished Quality and which stuff can kinda be glued together. If you find yourself needing to micromanage these sorts of technical tradeoffs, maybe the real problem is they don't get the vision.
+That doesn't mean every coder has to understand the nuances of buyer motivation. But your goal is to promulgate a vision that everyone can get behind, not just in a grand inspiration sense, but in a way that shapes their daily decisions. For engineers, the product vision is often the first and broadest guide to knowing which stuff needs to be built to Advanced Super Scalable Polished Quality and which can kinda be glued together. If you find yourself needing to micromanage these sorts of technical tradeoffs, maybe the real problem is they don't get the vision.
 
 ### 3. Don't listen
 
@@ -57,7 +57,7 @@ This is one area where management and parenting have some common ground. Like al
 
 When you're managing a team with multiple different skillsets, it can be hard to know when you're seeing bad work. So the best thing you can do here is make sure that each functional team has its own standard bearers. People who can evaluate the work others are doing as it happens, and make sure that the codebase or design or product roadmap is something to be proud of.
 
-On the other hand, suppose you have an engineer who often does lousy work. The other engineers know this (because they're completing his features and fixing his bugs). If you treat that assclown the same way you treat any other engineer, you're sending them all the message that you don't appreciate the difference.
+On the other hand, suppose you have an engineer who often does lousy work. The other engineers know this because they're completing his features and fixing his bugs. If you (and the engineer's direct manager) treat that dummy the same way you treat any other engineer, you're sending them all the message that you don't appreciate the difference. On the other hand, confronting the problem in a firm but respectful way---either with the individual or their manager---reminds them that the quality of their work does not go unnoticed.
 
 ### 5. Refuse to prioritize
 
@@ -73,7 +73,7 @@ Yet so many product leaders think they can just identify 500 things that seem wo
 
 Prioritizing can be hard for a PM to do, because we don't always know what a feature is truly worth, or even how much work it will take to build. But the fact is your team will always work through things in some order. You can choose whether that order is something you determine, or if you'd prefer it be shaped by the whims, preferences, competing interruptions, and gripping Hacker News articles of the day.
 
-### 6. Take credit
+### 6. Take all the credit
 
 Credit can motivate people. As a locus of communication in the organization, a PM has a lot of capability to distribute credit. And even to create credit, by explaining the great work your team does. You can and should capture some of this credit for yourself, as it is one way you develop your career and increase your influence. Plus it feels good.
 
@@ -85,11 +85,13 @@ As one of the more visible leaders on a product, you'll already get a lot of cre
 
 Accountability is a core value of high performing organizations. If you need a routine change to some part of your product's layout or content, it should ship efficiently in a predictable amount of time.
 
-But much of the work in a software product is novel to your team. Designing and building a feature can expose complexity that wasn't foreseen. This is the nature of making software; an organization where this never happens isn't taking enough risk.
+But much of the work in a software product is novel to your team. Designing and building a feature can expose complexity that wasn't foreseen. This is the nature of making software; an organization where this never happens isn't taking enough risk. And so when this happens, you can choose to accept that estimates have changed and rework your plans, or you can try to push people to meet their original deadlines.
 
-This is one of the most dangerous areas for PMs who don't have a technical background, because [it can be hard to tell the difference between trivial and impossible](https://xkcd.com/1425/). But there is a difference. Blindness to that means at best that you'll fail to recognize great work, and at worst that you'll be known as a clueless dupe with crazy ridiculous expectations.
+Pushing makes sense if they're a couple hours off because they spent too much time playing ping pong. It doesn't make sense if they're months off because the platforms you rely on don't offer the functionality you expected. But without the relevant technical background, [it can be hard to discern trivial from impossible](https://xkcd.com/1425/).
 
-This is also a major weapon available to the engineering side. If you don't want to do something, just say it's impossible. This can be a powerful vector for laziness and obstruction, just as it is in government. Avoiding that is one important benefit of having technical smarts at the very top levels of your organization.
+Still, some PMs ignore that complexity and always push, because they assume the engineers are lazy and need someone to crack the whip. But good PMs know that missed deadlines---although they hurt---are a learning opportunity. If this approach is too hard, is there something we can simplify and still get most of the value? Is there something similar we can reuse? Was the request really infeasible, or did we bungle it somehow? How can we do better next time?
+
+With that learning outlook, missed deadlines become an improvement opportunity for everyone. But there will be a lot of complex judgment calls that ensue, including ones that call engineering decisions into question. The need to handle those well at every level---and avoid being bamboozled by engineers who can say "that's impossible" to anything they don't like---is one reason it's helpful to have technical smarts at the very top levels of your organization.
 
 ### Be good. Don't be bad.
 
@@ -98,6 +100,13 @@ In an organization full of people who are (1) smart and (2) always learning, it'
 #### *Don't pretend to be certain when you're not; engage everyone in building knowledge.*
 
 Building good products is about assembling the right knowledge and making it operational. Helping engineers prioritize, get the right resources, and understand real-world performance can turn them into your greatest allies. Drown them in politics, unproven ideas, or other distractions, and you'll soon have the mutiny you deserve.
+
+---
+
+<small>
+*Thank you to Scott Macmillan, Alin Popescu, Rob Bushell, and Aaron VanDerlip for their feedback.*
+</small>
+
 <!-- ### other ideas -->
 
 <!-- * Don't listen  -->
