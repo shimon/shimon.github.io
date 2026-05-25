@@ -21,7 +21,7 @@ description: > # this means to ignore newlines until "baseurl:"
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-google_analytics: "UA-92986545-1"
+google_analytics: "G-LGV2MK3NJP"
 
 # footer links
 footer-links:
@@ -40,3 +40,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+  - "**/.#*"   # Emacs lock symlinks
+  - "**/#*#"   # Emacs auto-save files
+  - "**/*~"    # Emacs/vi backup files
