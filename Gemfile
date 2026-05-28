@@ -1,5 +1,4 @@
 source "https://rubygems.org"
-ruby RUBY_VERSION
 
 # If you want to use GitHub Pages, run `bundle update github-pages` to upgrade.
 gem "github-pages", group: :jekyll_plugins
