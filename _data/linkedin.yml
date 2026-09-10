@@ -1,0 +1,29 @@
+# Record of every LinkedIn feed item this blog has ever seen.
+# Managed by scripts/linkedin_sync.rb -- see README-LinkedIn.md.
+#
+# An item listed here is never re-imported, so editing or deleting the
+# generated post is safe. Set `status: excluded` to strike one for good.
+items:
+  ceff10184b1d477d54e653bd61f8f4f8:
+    activity: '7493076971115958272'
+    url: https://www.linkedin.com/posts/shimonrura_this-company-is-building-a-rapid-pipeline-activity-7493076971115958272-EFRj
+    date: '2026-08-11'
+    title: This company is building a rapid pipeline to synthesize mRNA cancer treatments for dogs
+    status: excluded
+    synced: '2026-09-10'
+  68cea8de1a0ec55ee7a0fd4dcd5195f4:
+    activity: '7492975821444235264'
+    url: https://www.linkedin.com/posts/shimonrura_this-post-is-for-the-job-i-previously-held-activity-7492975821444235264-SleF
+    date: '2026-08-11'
+    title: This post is for the job I previously held
+    status: excluded
+    synced: '2026-09-10'
+  bf9349da26d1f9ede0daab453ee45044:
+    activity: '7491291290786025472'
+    url: https://www.linkedin.com/posts/shimonrura_after-75-years-at-verily-im-taking-a-sabbatical-activity-7491291290786025472-LPDw
+    date: '2026-08-06'
+    title: After 7.5 years at Verily, I'm taking a sabbatical
+    status: published
+    post: _posts/2026-08-06-after-7-5-years-at-verily-im-taking-a-sabbatical.md
+    image: images/blog/linkedin/2026-08-06-after-7-5-years-at-verily-im-taking-a-sabbatical.jpg
+    synced: '2026-09-10'

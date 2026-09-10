@@ -1,0 +1,40 @@
+name: Sync LinkedIn Posts
+
+on:
+  schedule:
+    # Run daily at 6 AM UTC
+    - cron: '0 6 * * *'
+  workflow_dispatch: # Allows manual trigger
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Needed to commit and push changes back
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+
+      - name: Import new LinkedIn posts
+        env:
+          LINKEDIN_RSS_URL: ${{ secrets.LINKEDIN_RSS_URL }}
+        run: ruby scripts/linkedin_sync.rb sync
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+          # The ledger and downloaded images are as important as the posts:
+          # without them the next run would re-import everything.
+          git add _posts/ _data/linkedin.yml images/blog/linkedin/
+          if git diff --cached --quiet; then
+            echo "No new LinkedIn posts found."
+          else
+            git commit -m "Auto-sync new LinkedIn posts"
+            git push
+          fi

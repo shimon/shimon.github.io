@@ -23,6 +23,10 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 google_analytics: "G-LGV2MK3NJP"
 
+# Post dates are interpreted in this zone, so local builds and the UTC
+# GitHub Actions runner produce identical permalinks.
+timezone: America/New_York
+
 # footer links
 footer-links:
   linkedin: shimonrura

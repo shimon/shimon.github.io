@@ -4,7 +4,10 @@
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-2">
-        <img src="{{ site.url }}/images/shimon-500x500.jpg"/>
+        <picture>
+          <source srcset="{{ site.url }}/images/shimon-500x500.webp" type="image/webp">
+          <img src="{{ site.url }}/images/shimon-500x500.png" alt="Shimon Rura"/>
+        </picture>
         {% comment %}
         <ul class="social-media-list">
           {% if site.github_username %}
