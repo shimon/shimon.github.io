@@ -53,14 +53,18 @@ Source must be set to **"GitHub Actions"** (not "Deploy from a branch").
 
 ## Updating gems
 
-To pull in the latest github-pages-compatible gem versions:
+Dependabot proposes gem and Action updates weekly (`.github/dependabot.yml`)
+and the deploy workflow validates each PR, so most updates arrive as pull
+requests you just merge.
 
-    bundle update github-pages
-    git add Gemfile.lock
-    git commit -m "Update gems"
-    git push
+To bump everything by hand:
 
-The next deployment will automatically use the updated gems.
+    bundle update
+    git add Gemfile.lock && git commit -m "Update gems" && git push
+
+This site uses the `jekyll` gem directly, not the `github-pages` gem -- the
+deploy workflow builds with this Gemfile and uploads the result, so we are not
+pinned to GitHub's Jekyll 3 stack.
 
 
 ## Analytics

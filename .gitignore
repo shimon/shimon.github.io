@@ -12,3 +12,6 @@ vendor/
 # Local LinkedIn feed URL (the same value as the LINKEDIN_RSS_URL repo secret)
 .linkedin-rss-url
 /.claude
+
+# Jekyll 4 build cache
+.jekyll-cache/
