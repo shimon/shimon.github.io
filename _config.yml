@@ -38,12 +38,17 @@ footer-links:
 # Build settings
 markdown: kramdown
 theme: minima
+
+# dart-sass emits a source map alongside main.css; not wanted in production.
+sass:
+  sourcemap: never
 plugins:
   - jekyll-feed
 exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+  - README-LinkedIn.md   # dev docs, not a page
   - "**/.#*"   # Emacs lock symlinks
   - "**/#*#"   # Emacs auto-save files
   - "**/*~"    # Emacs/vi backup files
