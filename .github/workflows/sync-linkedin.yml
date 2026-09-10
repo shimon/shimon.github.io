@@ -13,7 +13,7 @@ jobs:
       contents: write # Needed to commit and push changes back
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
