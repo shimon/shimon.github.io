@@ -1,10 +1,10 @@
 {
   "pillow_version": "13.0.0",
-  "manifest_sha256": "c69a800b3f46ec4b2d84b94d9789648360111879b2a9c17d908985f01cdb34b8",
+  "manifest_sha256": "91e78b2a0e5bc08a2e3f7c202063efacc88be8665af96c6b98ca3242f0610f43",
   "photos": [
     {
       "output": "01-front-three-quarter.webp",
-      "sha256": "3d535f6ee2f74ee5a18ef23106e69433c813de6c85e44d13c64506248689a10f",
+      "sha256": "9f65fa4cc0c384cc1d17414d81cd05416633421f166b8298f627f003ee5a8e03",
       "size": [
         2000,
         1506
@@ -13,7 +13,7 @@
     },
     {
       "output": "02-side-profile.webp",
-      "sha256": "700560d8a5d275a52464d40fad28798b5bce871000823b15de8a1db550623e60",
+      "sha256": "8c69c1a0762b43b124b9174ac0da2cd113d588c4e6cfae2ca8ab884322ab54c0",
       "size": [
         2000,
         1506
@@ -22,7 +22,7 @@
     },
     {
       "output": "03-rear-three-quarter.webp",
-      "sha256": "3d78648445119752b776a4675d5cd7bc2c4fdd554afec7b117329429ff630ccc",
+      "sha256": "c95bf21309942676130b14a2c45d777f029c57997c6fc7c45d6e031c7ae08006",
       "size": [
         2000,
         1506
@@ -31,7 +31,7 @@
     },
     {
       "output": "04-front.webp",
-      "sha256": "aca0e718c7727492c8f89cfd183b1df2fd35ce2bd65005cdd53cc4f5baae8dfe",
+      "sha256": "4deb0e00b18065129c89d7340089288f49c174674754d8026bee566925178418",
       "size": [
         2000,
         1506
@@ -40,7 +40,7 @@
     },
     {
       "output": "05-rear.webp",
-      "sha256": "6bb54bd719439eab2df58cef408965a74ed5b35aa5fd9678941c1c2906395980",
+      "sha256": "acfaa23af496128decad778b41b161e380abe40c84b4807b08d07311fa28b6c8",
       "size": [
         2000,
         1506

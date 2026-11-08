@@ -91,8 +91,9 @@ def main():
         if list(oriented.size) != entry['oriented_size']:
             raise ValueError(f'Unexpected oriented dimensions: {source.name}')
         rectangles = entry['plate_rectangles']
+        polygons = entry.get('plate_polygons', [])
         status = entry['plate_review']
-        if status not in ('no_plate_visible', 'redacted') or (status == 'redacted') != bool(rectangles):
+        if status not in ('no_plate_visible', 'redacted') or (status == 'redacted') != bool(rectangles or polygons):
             raise ValueError('Every photo requires an explicit plate review')
         # Fresh RGB image intentionally drops all original metadata before encoding.
         clean = Image.new('RGB', oriented.size)
@@ -105,6 +106,16 @@ def main():
             if not (0 <= x0 < x1 <= clean.width and 0 <= y0 < y1 <= clean.height):
                 raise ValueError('Invalid plate rectangle')
             draw.rectangle((x0, y0, x1 - 1, y1 - 1), fill=tuple(config['mask_rgb']))
+        for polygon in polygons:
+            points = polygon['points']
+            color = polygon['fill_rgb']
+            if len(points) < 3 or any(len(p) != 2 or any(type(v) is not int for v in p) for p in points):
+                raise ValueError('Plate polygons require at least three integer coordinate pairs')
+            if any(not (0 <= x < clean.width and 0 <= y < clean.height) for x, y in points):
+                raise ValueError('Plate polygon lies outside the image')
+            if len(color) != 3 or any(type(v) is not int or not 0 <= v <= 255 for v in color):
+                raise ValueError('Plate fill must be three RGB bytes')
+            draw.polygon([tuple(p) for p in points], fill=tuple(color))
         if 'crop' in entry:
             x0, y0, x1, y1 = entry['crop']
             if not (0 <= x0 < x1 <= clean.width and 0 <= y0 < y1 <= clean.height):

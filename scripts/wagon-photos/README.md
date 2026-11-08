@@ -20,7 +20,7 @@ Run `node download_album.mjs < /private/wagon-download.json`. This performs the 
 
 ## Deterministic transformation
 
-Use Python 3 and the pinned Pillow version in `requirements.txt` (Pillow 13.0.0). For byte-identical output, retain the same Pillow/libwebp build. The manifest records the source SHA-256, EXIF-transposed dimensions, explicit redaction rectangles, and a reviewed no-plate status when applicable.
+Use Python 3 and the pinned Pillow version in `requirements.txt` (Pillow 13.0.0). For byte-identical output, retain the same Pillow/libwebp build. The manifest records the source SHA-256, EXIF-transposed dimensions, explicit redaction rectangles/polygons, and a reviewed no-plate status when applicable.
 
 From the repository root:
 
@@ -35,7 +35,7 @@ python scripts/wagon-photos/process.py \
   --output tsx-wagon/photos
 ```
 
-The importer verifies the entire expected archive, extracts only selected photographs by basename, and verifies every source hash. It does not extract videos or follow archive paths. The processor refuses originals inside the public repository. It verifies source hashes and dimensions, applies EXIF orientation, draws **opaque** plate masks in original pixel coordinates, resizes with Lanczos to at most 2000 × 2000, and writes fresh RGB WebP files with no EXIF, XMP, ICC, GPS, or embedded motion-video data. Background-car plates are masked too. A windshield inspection sticker is additionally masked in the cockpit photo. No rust, dents, scuffs, or upholstery damage is removed.
+The importer verifies the entire expected archive, extracts only selected photographs by basename, and verifies every source hash. It does not extract videos or follow archive paths. The processor refuses originals inside the public repository. It verifies source hashes and dimensions, applies EXIF orientation, draws **opaque** plate masks in original pixel coordinates (including perspective polygons fitted inside plate faces), resizes with Lanczos to at most 2000 × 2000, and writes fresh RGB WebP files with no EXIF, XMP, ICC, GPS, or embedded motion-video data. Exterior plate faces use individually reviewed light RGB fills, preserving the surrounding frame and bumper. Background-car plates are masked too. A windshield inspection sticker is additionally masked in the cockpit photo. No rust, dents, scuffs, or upholstery damage is removed.
 
 `processing-report.json` lists each output hash and size. Run `python scripts/wagon-photos/verify.py` to verify the exact reviewed output set, hashes, and absence of source metadata. Run twice and compare the reports to check reproducibility in the same environment. Review every output visually before publication, including backgrounds and reflections; automated hash checks do not prove that the manifest found every plate. New or changed photographs require a new visual review and explicit manifest entry.
 
