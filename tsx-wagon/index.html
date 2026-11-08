@@ -4,6 +4,7 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow"><meta name="description" content="Shimon’s 2011 Acura TSX Sport Wagon: photographs, condition, and service history.">
 <title>2011 Acura TSX Sport Wagon</title><link rel="stylesheet" href="style.css">
+<link rel="preload" as="image" href="photos/01-front-three-quarter.webp" fetchpriority="high">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -11,7 +12,38 @@
 <main id="main">
 <section class="hero" aria-labelledby="title">
 <div class="hero-copy"><p class="eyebrow">Looking for its next enthusiast</p><h1 id="title">Acura TSX<br>Sport Wagon.</h1><p class="intro">I’ve loved this wagon since 2014, and it has served our family well. I’d like it to go to someone who appreciates TSXs or wagons and can see past its imperfections.</p><p class="draft-note">132,113 miles photographed November 7, 2026 · Asking price to confirm.</p><a class="text-link" href="#gallery-section">See the photographs <span aria-hidden="true">&darr;</span></a></div>
-<div class="hero-media" id="hero-media"></div>
+<div class="hero-media" id="hero-media">
+<!-- Deterministic vector composition; only the already-redacted photograph is loaded.
+     The lower outline is traced in the 2000 × 1506 source coordinate system. -->
+<svg class="hero-scene" viewBox="320 100 1500 1250" role="img" aria-labelledby="hero-scene-title hero-scene-desc">
+<title id="hero-scene-title">The TSX wagon, on a road of light</title>
+<desc id="hero-scene-desc">The original autumn photograph above, with the wagon’s lower silhouette cut out over copper and sky-blue light trails. A decorative composition; the full photograph is in the gallery.</desc>
+<defs>
+  <linearGradient id="scene-fade" x1="0" y1="650" x2="0" y2="930" gradientUnits="userSpaceOnUse"><stop stop-color="white"/><stop offset="1" stop-color="black"/></linearGradient>
+  <linearGradient id="road-ground" x1="0" y1="650" x2="0" y2="1400" gradientUnits="userSpaceOnUse"><stop stop-color="#385057"/><stop offset="1" stop-color="#142c30"/></linearGradient>
+  <linearGradient id="copper-light"><stop stop-color="#b96b3d" stop-opacity="0"/><stop offset=".4" stop-color="#e9b576"/><stop offset=".7" stop-color="#fff0ce"/><stop offset="1" stop-color="#b96b3d"/></linearGradient>
+  <linearGradient id="blue-light"><stop stop-color="#a3cfde" stop-opacity="0"/><stop offset=".45" stop-color="#d3edf2"/><stop offset="1" stop-color="#6395ac"/></linearGradient>
+  <filter id="road-glow" x="-20%" y="-100%" width="140%" height="300%"><feGaussianBlur stdDeviation="9"/></filter>
+  <filter id="ground-shadow" x="-10%" y="-100%" width="120%" height="300%"><feGaussianBlur stdDeviation="14"/></filter>
+  <mask id="wagon-cutout" maskUnits="userSpaceOnUse" x="0" y="0" width="2000" height="1506">
+    <rect width="2000" height="1506" fill="url(#scene-fade)"/>
+    <path fill="white" d="M565 850 Q575 801 626 756 L740 684 L925 665 L1170 692 L1385 793 Q1570 806 1662 876 Q1713 920 1712 987 L1713 1030 Q1692 1058 1651 1068 Q1500 1117 1293 1100 Q1284 1147 1222 1153 Q1156 1164 1125 1138 Q1080 1108 1068 1063 L714 1011 Q703 1046 673 1047 Q637 1051 619 1026 Q603 1004 598 970 Q569 953 568 924 Z"/>
+  </mask>
+  <path id="road-copper" d="M170 960 C610 1020 955 1210 1370 1228 S1820 1155 2110 1065"/>
+  <path id="road-blue" d="M180 1002 C600 1060 940 1250 1350 1274 S1860 1235 2120 1145"/>
+</defs>
+<rect x="320" y="100" width="1500" height="1250" fill="url(#road-ground)"/>
+<g fill="none" stroke="#8dabb0" stroke-width="1" opacity=".17">
+  <path d="M200 922 Q1050 1120 1950 985 M200 985 Q1050 1200 1950 1060 M200 1070 Q1050 1300 1950 1160 M200 1180 Q1050 1450 1950 1320"/>
+  <path d="M590 840 L350 1400 M800 860 L740 1400 M1010 890 L1130 1400 M1210 920 L1530 1400 M1410 950 L1930 1400"/>
+</g>
+<g fill="none" stroke-width="14" filter="url(#road-glow)" opacity=".65"><use href="#road-copper" stroke="url(#copper-light)"/><use href="#road-blue" stroke="url(#blue-light)"/></g>
+<g fill="none" stroke-width="3"><use href="#road-copper" stroke="url(#copper-light)"/><use href="#road-blue" stroke="url(#blue-light)"/></g>
+<path d="M610 1038 Q860 1070 1100 1140 Q1380 1210 1705 1085" fill="none" stroke="#071b20" stroke-width="58" opacity=".8" filter="url(#ground-shadow)"/>
+<image href="photos/01-front-three-quarter.webp" width="2000" height="1506" mask="url(#wagon-cutout)"/>
+</svg>
+<span class="hero-scene-label" aria-hidden="true">Long roof. Long story.</span>
+</div>
 </section>
 <section class="spec-strip" aria-label="Vehicle details"><dl class="facts"><div><dt>Year</dt><dd>2011</dd></div><div><dt>Powertrain</dt><dd>2.4L four-cylinder · automatic</dd></div><div><dt>Equipment</dt><dd>Technology Package</dd></div></dl></section>
 <section class="section gallery-section" id="gallery-section" hidden><div class="section-heading"><h2>A closer look.</h2><p class="record-note">November 7–8, 2026 · Tap to enlarge. Plates masked; wear and damage left visible.</p></div><div id="gallery" class="gallery"></div></section>

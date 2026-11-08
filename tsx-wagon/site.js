@@ -112,13 +112,6 @@ function showPhoto(index) {
   if (!viewer.open) viewer.showModal();
 }
 if (wagon.photos.length) {
-  const photo = wagon.photos[0];
-  const hero = el('img');
-  hero.src = photo.src;
-  hero.alt = photo.alt;
-  hero.fetchPriority = 'high';
-  if (photo.position) hero.style.objectPosition = photo.position;
-  document.getElementById('hero-media').replaceChildren(hero);
   wagon.photos.forEach((photo, index) => {
     const fig = el('figure');
     const button = el('button');

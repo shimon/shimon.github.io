@@ -39,6 +39,10 @@ The importer verifies the entire expected archive, extracts only selected photog
 
 `processing-report.json` lists each output hash and size. Run `python scripts/wagon-photos/verify.py` to verify the exact reviewed output set, hashes, and absence of source metadata. Run twice and compare the reports to check reproducibility in the same environment. Review every output visually before publication, including backgrounds and reflections; automated hash checks do not prove that the manifest found every plate. New or changed photographs require a new visual review and explicit manifest entry.
 
+## Hero composition
+
+The hero in `tsx-wagon/index.html` reuses the redacted `01-front-three-quarter.webp` through an inline SVG mask. Its upper photograph fades into a traced lower-body silhouette; SVG paths and gradients draw the decorative copper/blue road underneath. The tracing uses the processed photograph's 2000 × 1506 coordinates and a fixed viewBox, so it scales identically on desktop and mobile. No AI generation, retouching, or unredacted browser assets are involved. The gallery retains the complete photograph. If the hero photograph or its crop changes, retrace the mask against the new processed image.
+
 ## Publication boundary
 
 Deploy only the page assets and processed photographs. No original JPG, MP4, ZIP, private URL map, or private archive should appear in Git history. The original album's videos are excluded because no frame-by-frame redaction has been completed. Mileage and current exhaust/sunroof disclosures have been updated from the owner and odometer photo. Asking price and buyer contact details still require confirmation.
