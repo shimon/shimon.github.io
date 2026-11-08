@@ -41,7 +41,7 @@ The importer verifies the entire expected archive, extracts only selected photog
 
 ## Hero composition
 
-The hero in `tsx-wagon/index.html` reuses the redacted `01-front-three-quarter.webp` through an inline SVG mask. Its upper photograph fades into a traced lower-body silhouette; SVG paths and gradients draw the decorative copper/blue road underneath. The tracing uses the processed photograph's 2000 × 1506 coordinates and a fixed viewBox, so it scales identically on desktop and mobile. No AI generation, retouching, or unredacted browser assets are involved. The gallery retains the complete photograph. If the hero photograph or its crop changes, retrace the mask against the new processed image.
+The hero in `tsx-wagon/index.html` reuses the redacted `01-front-three-quarter.webp` through an inline SVG mask. Its upper photograph fades into a traced lower-body silhouette; A separate full-width SVG layer draws the decorative copper/blue road behind both the title and photograph. The photo layer is transparent below the silhouette, so the road continues without a panel boundary. The tracing uses the processed photograph's 2000 × 1506 coordinates and a fixed viewBox, so it scales identically on desktop and mobile. No AI generation, retouching, or unredacted browser assets are involved. The gallery retains the complete photograph. If the hero photograph or its crop changes, retrace the mask against the new processed image.
 
 ## Publication boundary
 
