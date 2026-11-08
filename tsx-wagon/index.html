@@ -32,50 +32,43 @@
      The lower outline is traced in the 2000 × 1506 source coordinate system. -->
 <svg class="hero-scene" viewBox="320 240 1500 1110" role="img" aria-labelledby="hero-scene-title hero-scene-desc">
 <title id="hero-scene-title">The TSX wagon, on a road of light</title>
-<desc id="hero-scene-desc">A stylized illustration of the wagon traced over its photograph, with smooth graphite-gray paint, tinted glass and crisp highlights, floating over copper and sky-blue light trails. The unretouched condition photographs are in the gallery.</desc>
+<desc id="hero-scene-desc">The graphite-gray wagon photographed in autumn, with softly retouched reflections and paint texture, cut out over copper and sky-blue light trails. The original condition photographs are in the gallery.</desc>
 <defs>
   <linearGradient id="scene-fade" x1="0" y1="650" x2="0" y2="930" gradientUnits="userSpaceOnUse"><stop stop-color="white"/><stop offset="1" stop-color="black"/></linearGradient>
   <filter id="ground-shadow" x="-10%" y="-100%" width="120%" height="300%"><feGaussianBlur stdDeviation="14"/></filter>
   <path id="wagon-outline" d="M565 850 Q575 801 626 756 L740 684 L925 665 L1170 692 L1385 793 Q1570 806 1662 876 Q1713 920 1712 987 L1713 1030 Q1692 1058 1651 1068 Q1500 1117 1293 1100 C1285 1119 1259 1137 1217 1147 C1185 1155 1152 1153 1124 1136 C1098 1120 1082 1090 1077 1061 L714 1011 Q709 1027 697 1034 Q675 1043 651 1039 Q629 1037 618 1016 Q606 996 603 970 Q569 953 568 924 Z"/>
   <clipPath id="wagon-illustration-clip"><use href="#wagon-outline"/></clipPath>
-  <!-- A deterministic, hero-only finish: simplify texture, reduce tonal steps,
-       deepen the paint, and retain crisp wheel/body geometry. -->
-  <filter id="wagon-illustration" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB">
-    <feGaussianBlur stdDeviation=".65"/>
-    <feConvolveMatrix order="3" kernelMatrix="0 -.2 0 -.2 1.8 -.2 0 -.2 0" preserveAlpha="true"/>
-    <feColorMatrix type="saturate" values="0.82"/>
-    <feComponentTransfer>
-      <feFuncR type="linear" slope="1.18" intercept="-.055"/>
-      <feFuncG type="linear" slope="1.18" intercept="-.05"/>
-      <feFuncB type="linear" slope="1.2" intercept="-.04"/>
-    </feComponentTransfer>
-    <feComponentTransfer>
-      <feFuncR type="discrete" tableValues="0 .045 .09 .14 .19 .24 .29 .34 .39 .44 .49 .54 .59 .64 .69 .74 .79 .85 .92 1"/>
-      <feFuncG type="discrete" tableValues="0 .045 .09 .14 .19 .24 .29 .34 .39 .44 .49 .54 .59 .64 .69 .74 .79 .85 .92 1"/>
-      <feFuncB type="discrete" tableValues="0 .045 .09 .14 .19 .24 .29 .34 .39 .44 .49 .54 .59 .64 .69 .74 .79 .85 .92 1"/>
-    </feComponentTransfer>
+  <!-- Photographic retouch only: the same pixels, softly blended at two scales.
+       Feathered masks protect hardware, panel seams and the outer silhouette. -->
+  <filter id="wagon-finish" color-interpolation-filters="sRGB">
+    <feGaussianBlur stdDeviation=".45"/>
+    <feColorMatrix type="saturate" values=".9"/>
+    <feComponentTransfer><feFuncR type="linear" slope="1.04" intercept="-.012"/><feFuncG type="linear" slope="1.04" intercept="-.012"/><feFuncB type="linear" slope="1.04" intercept="-.012"/></feComponentTransfer>
   </filter>
-  <!-- Traced paint and glass surfaces share the photograph's coordinates.
-       Opaque gradients replace reflections; detail apertures retain real hardware. -->
-  <filter id="graphite-paint" color-interpolation-filters="sRGB"><feColorMatrix type="saturate" values=".12"/></filter>
-  <linearGradient id="paint-side" x1="800" y1="791" x2="777" y2="1054" gradientUnits="userSpaceOnUse"><stop stop-color="#6b8293"/><stop offset=".19" stop-color="#324759"/><stop offset=".35" stop-color="#526c7e"/><stop offset=".46" stop-color="#263a4c"/><stop offset=".83" stop-color="#172b3a"/><stop offset="1" stop-color="#3a5160"/></linearGradient>
-  <linearGradient id="paint-hood" x1="1300" y1="789" x2="1300" y2="908" gradientUnits="userSpaceOnUse"><stop stop-color="#6a8292"/><stop offset=".23" stop-color="#3b566b"/><stop offset=".65" stop-color="#304c63"/><stop offset=".9" stop-color="#46667f"/><stop offset="1" stop-color="#92afbd"/></linearGradient>
-  <linearGradient id="paint-nose" x1="1260" y1="905" x2="1580" y2="1100" gradientUnits="userSpaceOnUse"><stop stop-color="#8599a7"/><stop offset=".19" stop-color="#506a80"/><stop offset=".43" stop-color="#304a61"/><stop offset=".75" stop-color="#1b3042"/><stop offset="1" stop-color="#4c6576"/></linearGradient>
-  <linearGradient id="paint-roof" x1="870" y1="675" x2="880" y2="805" gradientUnits="userSpaceOnUse"><stop stop-color="#8e9b9f"/><stop offset=".15" stop-color="#354a5d"/><stop offset=".65" stop-color="#263d52"/><stop offset="1" stop-color="#6e8799"/></linearGradient>
-  <linearGradient id="glass-side" x1="800" y1="715" x2="850" y2="814" gradientUnits="userSpaceOnUse"><stop stop-color="#071c2a"/><stop offset=".5" stop-color="#123247"/><stop offset="1" stop-color="#415e6b"/></linearGradient>
-  <linearGradient id="glass-front" x1="1090" y1="709" x2="1160" y2="802" gradientUnits="userSpaceOnUse"><stop stop-color="#0d2639"/><stop offset=".55" stop-color="#23485d"/><stop offset="1" stop-color="#577b89"/></linearGradient>
-  <linearGradient id="paint-mirror" x1="952" y1="762" x2="952" y2="812" gradientUnits="userSpaceOnUse"><stop stop-color="#91a5b1"/><stop offset=".33" stop-color="#576c80"/><stop offset=".76" stop-color="#263b50"/><stop offset="1" stop-color="#152937"/></linearGradient>
-  <linearGradient id="studio-highlight"><stop stop-color="#ead7b7" stop-opacity=".8"/><stop offset=".45" stop-color="#c8e8f0" stop-opacity=".7"/><stop offset="1" stop-color="#c8e8f0" stop-opacity="0"/></linearGradient>
-  <mask id="paint-hardware" maskUnits="userSpaceOnUse" x="560" y="660" width="1165" height="510">
-    <rect x="560" y="660" width="1165" height="510" fill="white"/>
-    <g fill="black">
-      <!-- Lamps, grille, fog-light recess, lower intake, plate and door handles. -->
-      <path d="M1244 857 Q1345 872 1499 876 L1515 917 L1495 928 Q1346 921 1281 895 Z"/>
-      <path d="M1505 875 Q1605 879 1655 859 Q1692 890 1692 917 Q1639 964 1586 943 Z"/>
-      <path d="M1386 1034 Q1412 1015 1444 1012 L1518 1007 L1500 1066 Q1439 1084 1408 1068 Z"/>
-      <path d="M1592 1011 L1638 998 L1640 1048 L1557 1075 L1550 1059 Q1566 1022 1592 1011 Z"/>
-      <path d="M1638 968 L1698 952 L1703 1026 L1643 1047 Z"/>
-      <path d="M708 810 Q725 810 740 819 L731 831 L710 824 Z M809 829 Q839 825 857 836 L844 848 L813 841 Z"/>
+  <filter id="paint-soften" x="-5%" y="-5%" width="110%" height="110%" color-interpolation-filters="sRGB">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="13" result="broad"/>
+    <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="fine"/>
+    <feComposite in="broad" in2="fine" operator="arithmetic" k2=".8" k3=".2"/>
+    <feColorMatrix type="saturate" values=".8"/>
+  </filter>
+  <filter id="glass-soften" color-interpolation-filters="sRGB"><feGaussianBlur stdDeviation="2.5"/></filter>
+  <filter id="retouch-feather"><feGaussianBlur stdDeviation="5"/></filter>
+  <mask id="paint-retouch" maskUnits="userSpaceOnUse" x="560" y="660" width="1165" height="510">
+    <g fill="white" filter="url(#retouch-feather)">
+      <path d="M615 815 L677 809 L689 858 Q627 844 610 906 L586 928 L584 876 Z"/>
+      <path d="M708 812 L805 832 L790 972 L741 971 Q725 941 720 907 Z"/>
+      <path d="M825 819 L1026 839 L1022 1019 L815 986 Z"/>
+      <path d="M1052 820 Q1113 840 1201 854 Q1111 863 1090 932 L1050 1003 Z"/>
+      <path d="M1082 799 Q1320 795 1451 810 Q1580 825 1634 866 Q1452 880 1326 851 Z"/>
+      <path d="M1296 931 Q1410 955 1522 949 L1581 974 L1531 995 L1408 1004 L1363 1041 L1304 1068 Z"/>
+      <path d="M1320 1073 L1388 1074 Q1455 1103 1540 1074 L1617 1059 Q1479 1099 1321 1090 Z"/>
+    </g>
+    <g fill="black"><path d="M704 808 Q725 808 742 818 L734 834 L707 825 Z M807 825 Q839 823 860 834 L846 851 L810 844 Z"/></g>
+  </mask>
+  <mask id="glass-retouch" maskUnits="userSpaceOnUse" x="620" y="690" width="730" height="120">
+    <g fill="#aaa" filter="url(#retouch-feather)">
+      <path d="M647 771 Q665 742 712 728 L696 778 Z M742 723 L813 712 L800 783 L719 778 Z M859 712 Q897 707 926 723 L968 759 L916 786 L841 784 Z"/>
+      <path d="M988 713 Q1084 705 1162 717 L1307 782 L1062 781 Z"/>
     </g>
   </mask>
   <mask id="wagon-cutout" maskUnits="userSpaceOnUse" x="0" y="0" width="2000" height="1506">
@@ -85,53 +78,10 @@
 </defs>
 <path d="M610 1038 Q860 1070 1100 1140 Q1380 1210 1705 1085" fill="none" stroke="#071b20" stroke-width="58" opacity=".8" filter="url(#ground-shadow)"/>
 <image href="photos/01-front-three-quarter.webp" width="2000" height="1506" mask="url(#wagon-cutout)"/>
-<g clip-path="url(#wagon-illustration-clip)"><image href="photos/01-front-three-quarter.webp" width="2000" height="1506" filter="url(#wagon-illustration)"/>
-<!-- Hero-only hand-traced illustration. The gallery remains documentary. -->
-<g mask="url(#paint-hardware)" stroke-linejoin="round" filter="url(#graphite-paint)">
-  <!-- Body below the beltline, with both wheel arches traced from the photograph. -->
-  <path d="M586 804 Q639 791 671 794 L1034 817 L1140 844 Q1229 840 1295 891 L1289 957 C1264 907 1221 885 1183 890 C1119 892 1081 947 1078 1028 L1084 1059 L714 1009 C704 961 708 911 682 886 C658 865 623 882 610 920 L603 968 L573 949 L569 894 Z" fill="url(#paint-side)"/>
-  <path d="M1036 797 Q1145 817 1246 856 Q1268 870 1277 898 Q1227 865 1182 871 Q1110 868 1072 933 L1040 946 Z" fill="url(#paint-side)"/>
-  <!-- Front bumper curves around preserved lamps and intake openings. -->
-  <path d="M1237 853 Q1444 871 1648 854 Q1702 883 1708 942 L1712 1029 Q1680 1052 1646 1065 Q1452 1113 1293 1097 C1294 1048 1300 995 1278 950 Q1267 916 1240 902 L1218 873 Z" fill="url(#paint-nose)"/>
-  <!-- Hood and front fender shoulder. -->
-  <path d="M1036 797 Q1185 789 1365 800 Q1550 805 1637 863 Q1661 877 1648 882 Q1531 902 1431 882 L1246 856 Q1145 817 1036 797 Z" fill="url(#paint-hood)"/>
-  <!-- Rocker panel, rear quarter, and sharp crease under the doors. -->
-  <path d="M708 986 L1080 1036 L1083 1058 L715 1009 Z" fill="#233a49"/>
-  <path d="M714 989 L1078 1040" fill="none" stroke="#9bb1b9" stroke-opacity=".55" stroke-width="2"/>
-  <path d="M581 843 Q603 819 623 808 L651 803 L609 863 Q582 894 577 935 L572 923 L571 890 Z" fill="#304a5b"/>
-  <!-- Roof and pillars. Rails are retained from the source photograph. -->
-  <path d="M615 772 Q653 718 743 697 Q836 680 925 684 L1168 701 Q1075 690 976 698 Q1002 738 1042 782 L1043 818 L1015 812 Q985 755 943 716 Q903 692 865 700 L718 719 Q657 736 626 778 Z" fill="url(#paint-roof)"/>
-</g>
-<image href="photos/01-front-three-quarter.webp" width="2000" height="1506" filter="url(#wagon-illustration)" opacity=".055"/>
-<!-- Smooth, tinted glazing replaces tree and building reflections. -->
-<path d="M824 704 L850 702 L831 792 L808 790 Z" fill="#304657" stroke="#829ba8" stroke-opacity=".5"/>
-<g stroke="#9baeb6" stroke-opacity=".65" stroke-width="1.5" stroke-linejoin="round">
-  <path d="M640 771 Q656 743 682 730 L725 718 L700 784 L652 781 Q635 780 640 771 Z" fill="url(#glass-side)"/>
-  <path d="M736 716 L823 704 L806 790 L711 785 Z" fill="url(#glass-side)"/>
-  <path d="M851 703 Q899 697 932 716 L981 765 L920 797 L832 792 Z" fill="url(#glass-side)"/>
-  <path d="M964 705 Q1069 693 1165 708 Q1259 746 1337 787 Q1214 798 1055 787 Q1014 744 964 705 Z" fill="url(#glass-front)"/>
-</g>
-<path d="M1056 790 Q1195 803 1337 790" fill="none" stroke="#132d3d" stroke-width="4"/>
-<!-- Controlled studio reflections: broad, quiet shapes instead of scenery. -->
-<g fill="#a9c5cc">
-  <path d="M650 770 L686 735 L714 727 L696 742 L660 778 Z" opacity=".12"/>
-  <path d="M725 780 L792 711 L809 709 L750 786 Z" opacity=".09"/>
-  <path d="M848 786 L905 707 L925 715 L875 792 Z" opacity=".12"/>
-  <path d="M1001 712 L1049 708 L1183 789 L1139 790 Z" opacity=".08"/>
-  <path d="M1190 723 L1306 782 L1281 785 L1162 717 Z" opacity=".2"/>
-</g>
-<!-- Mirror, panel gaps, wheel-arch lips and specular edges. -->
-<path d="M920 770 Q926 760 955 762 Q985 760 999 776 L1001 799 Q986 814 952 810 L921 804 Z" fill="url(#paint-mirror)" filter="url(#graphite-paint)" stroke="#182b3b" stroke-width="2"/>
-<path d="M922 797 L936 800 L938 806 L923 804 Z" fill="#cad7d5"/>
-<g fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path d="M701 797 Q692 835 705 890 L721 968 Q727 986 744 991 M815 808 L799 972 Q799 991 806 998 M1041 821 L1035 1012 Q1036 1029 1029 1032" stroke="#102432" stroke-width="2.2"/>
-  <path d="M704 800 Q693 834 708 890 M818 810 L803 971 M1044 825 L1039 1009" stroke="#88a1ae" stroke-opacity=".35" stroke-width="1"/>
-  <path d="M635 795 Q826 814 1039 850 Q1104 861 1149 847 M1052 802 Q1234 816 1415 873 Q1513 894 1644 875" stroke="url(#studio-highlight)" stroke-width="2.7"/>
-  <path d="M610 915 Q622 873 654 875 Q692 873 705 924 M1082 1018 C1085 947 1128 879 1182 884 Q1251 879 1285 954" stroke="#a5bdca" stroke-opacity=".65" stroke-width="2"/>
-  <path d="M1298 1094 Q1482 1111 1647 1061 M1286 902 Q1390 938 1494 934" stroke="#b3cbd4" stroke-opacity=".6" stroke-width="2.2"/>
-  <path d="M1342 1049 L1387 1051 L1408 1035 M1518 1007 L1563 1000 M1510 1080 L1547 1069" stroke="#112b3d" stroke-width="3"/>
-  <path d="M650 788 Q842 799 919 804 M1017 807 L1040 814 M741 698 Q831 679 926 685" stroke="#d8e5e7" stroke-opacity=".65" stroke-width="1.6"/>
-</g>
+<g clip-path="url(#wagon-illustration-clip)">
+  <image href="photos/01-front-three-quarter.webp" width="2000" height="1506" filter="url(#wagon-finish)"/>
+  <image href="photos/01-front-three-quarter.webp" width="2000" height="1506" filter="url(#paint-soften)" mask="url(#paint-retouch)"/>
+  <image href="photos/01-front-three-quarter.webp" width="2000" height="1506" filter="url(#glass-soften)" mask="url(#glass-retouch)"/>
 </g>
 </svg>
 </div>
