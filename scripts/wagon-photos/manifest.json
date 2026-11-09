@@ -679,6 +679,30 @@
           ]
         }
       ]
+    },
+    {
+      "source": "fans-behind-the-wheel.jpg",
+      "source_sha256": "1f494c9830f8e188f6dee9fa26ecefb4d7ab379df800ef580336195a195747f5",
+      "oriented_size": [
+        2740,
+        2056
+      ],
+      "output": "25-biggest-fans.webp",
+      "plate_review": "no_plate_visible",
+      "plate_rectangles": [],
+      "review_note": "User-selected family photo, downloaded from the displayed Google Photos rendition. Visually reviewed: no visible license plates, including background and reflections. No private share URL or location metadata retained."
+    },
+    {
+      "source": "fans-car-wash.jpg",
+      "source_sha256": "3e6f2e6c745f58b657242b7258dc269b91bb8c3f448180425dabdb0a0caa7a15",
+      "oriented_size": [
+        2740,
+        2056
+      ],
+      "output": "26-car-wash.webp",
+      "plate_review": "no_plate_visible",
+      "plate_rectangles": [],
+      "review_note": "User-selected family photo, downloaded from the displayed Google Photos rendition. Visually reviewed: no visible license plates, including background and reflections. No private share URL or location metadata retained."
     }
   ]
 }

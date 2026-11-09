@@ -216,6 +216,24 @@
         800,
         602
       ]
+    },
+    {
+      "output": "25-biggest-fans.webp",
+      "source_sha256": "bff18b24752c4fee85a574526865904f5e7999666abb84d1871b0f43eece5788",
+      "sha256": "6fd01b05cefa5f398285ef7b94e47ebd0a6efa36cd55f14c8b186cff342dc151",
+      "size": [
+        800,
+        600
+      ]
+    },
+    {
+      "output": "26-car-wash.webp",
+      "source_sha256": "e9085e40fa1636617db9225cb9b5d52f0a95f11eb41064ce27009c374627f410",
+      "sha256": "1556e8ba20d883709d489d9729ad8879c581f03ec232a4ba4322fd2aee664969",
+      "size": [
+        800,
+        600
+      ]
     }
   ]
 }

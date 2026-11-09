@@ -41,6 +41,8 @@ The importer verifies the entire expected archive, extracts only selected photog
 
 Both generators encode images completely in memory, write a hidden temporary file beside the destination, and atomically replace the final file. This keeps a running Jekyll watcher from copying an empty or partially written image. If an older generation left empty files in `_site`, rebuild or touch the verified source assets to force the watcher to copy them again.
 
+The two “Biggest fans” photos were downloaded separately from the exact user-selected Google Photos display renditions, and are not in the original album ZIP. Their private source filenames are `fans-behind-the-wheel.jpg` and `fans-car-wash.jpg`; the public manifest verifies their hashes. Both were visually reviewed with no plates visible. They use the same metadata-stripping and resizing pipeline as the other photos, and retain their original appearance. Private share URLs remain outside the repository.
+
 ## Gallery thumbnails
 
 After processing photos, run `python scripts/wagon-photos/thumbnails.py` with the same pinned Pillow version. This verifies each processed source hash, resizes only already-redacted images to at most 800 × 800, and writes fresh metadata-free WebP thumbnails at quality 82 into `tsx-wagon/thumbnails/`. Its report records source/output hashes and dimensions. `verify.py` checks both sets. The gallery eagerly loads these small thumbnails; opening the viewer loads the corresponding full-size processed photo. No originals are used by the thumbnail generator.

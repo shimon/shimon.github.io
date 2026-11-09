@@ -148,6 +148,18 @@ const wagon = {
     "group": "details",
     "caption": "Spare wheel",
     "alt": "The compact spare wheel and tire standing outside the open cargo area."
+  },
+  {
+    "src": "photos/25-biggest-fans.webp",
+    "group": "fans",
+    "caption": "One of the wagon’s biggest fans",
+    "alt": "A smiling child sitting in the parked wagon’s driver seat with hands on the steering wheel."
+  },
+  {
+    "src": "photos/26-car-wash.webp",
+    "group": "fans",
+    "caption": "At the car wash",
+    "alt": "Two children washing the parked wagon with colorful water toys."
   }
 ],
   story: [], // Plain-text paragraphs from the owner.
@@ -160,7 +172,7 @@ const el = (tag, text, className) => { const node=document.createElement(tag); i
 const reveal = id => {document.getElementById(id).hidden=false;};
 for(const fact of wagon.facts){const row=el('div');row.append(el('dt',fact.label),el('dd',fact.value));document.querySelector('.facts').append(row);}
 // Keep the viewer's next/previous order aligned with the grouped gallery.
-const galleryPhotos = ['overview', 'details', 'blemishes'].flatMap(group =>
+const galleryPhotos = ['overview', 'details', 'blemishes', 'fans'].flatMap(group =>
   wagon.photos.filter(photo => photo.group === group)
 );
 const viewer = document.getElementById('photo-viewer');

@@ -1,6 +1,6 @@
 {
   "pillow_version": "13.0.0",
-  "manifest_sha256": "5a1b6f9ec7f6f224178d01ad3a8255629dbcbe7bdc50475ebba2637fff02b34c",
+  "manifest_sha256": "55176d80cad16b0b824b9d906323791b2a7be6a0577bbe77efdef8405b6361f1",
   "photos": [
     {
       "output": "01-front-three-quarter.webp",
@@ -217,6 +217,24 @@
         1506
       ],
       "plate_review": "redacted"
+    },
+    {
+      "output": "25-biggest-fans.webp",
+      "sha256": "bff18b24752c4fee85a574526865904f5e7999666abb84d1871b0f43eece5788",
+      "size": [
+        2000,
+        1501
+      ],
+      "plate_review": "no_plate_visible"
+    },
+    {
+      "output": "26-car-wash.webp",
+      "sha256": "e9085e40fa1636617db9225cb9b5d52f0a95f11eb41064ce27009c374627f410",
+      "size": [
+        2000,
+        1501
+      ],
+      "plate_review": "no_plate_visible"
     }
   ]
 }
