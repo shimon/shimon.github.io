@@ -49,7 +49,22 @@ After a Jekyll build, run `python scripts/wagon-photos/verify.py --site-dir _sit
 
 ## Hero composition
 
-The hero in `tsx-wagon/index.html` reuses the redacted `01-front-three-quarter.webp` through an inline SVG mask. Its upper photograph fades into a traced lower-body silhouette; A separate full-width SVG layer draws the decorative copper/blue road behind both the title and photograph. The photo layer is transparent below the silhouette, so the road continues without a panel boundary. The tracing uses the processed photograph's 2000 × 1506 coordinates and a fixed viewBox, so it scales identically on desktop and mobile. The hero uses photographic retouching only: a gentle 0.45-pixel smoothing pass and modest contrast adjustment, followed by feathered, localized reflection reduction. Paint blends 80% of a 13-pixel softened version with 20% of a 2-pixel version; glass uses a separate 2.5-pixel softening pass at reduced opacity. Five-pixel feathered masks keep these effects away from hardware, panel seams, wheel edges, and the silhouette. No painted panels, invented reflections, or replacement glass are drawn. Broad natural reflections remain to preserve the original lighting and graphite-gray appearance. All layers reuse the same redacted photograph in the same coordinates without warping or moving the car; the autumn background keeps its photographic texture. No AI generation or unredacted browser assets are involved. The gallery retains the complete, unstyled photograph. If the hero photograph or its crop changes, retrace the mask against the new processed image.
+The hero in `tsx-wagon/index.html` reuses the redacted `01-front-three-quarter.webp` through an inline SVG mask. Its upper photograph fades into a traced lower-body silhouette; A separate full-width SVG layer draws the decorative copper/blue road behind both the title and photograph. The photo layer is transparent below the silhouette, so the road continues without a panel boundary. The tracing uses the processed photograph's 2000 × 1506 coordinates and a fixed viewBox, so it scales identically on desktop and mobile. The foreground car uses a single unfiltered copy of the redacted photograph, clipped to the existing silhouette. Its reflections, paint texture, glass, color, and contrast are unchanged; no foreground smoothing or reflection reduction is applied. All layers reuse the same redacted photograph in the same coordinates without warping or moving the car; the autumn background has a separate 35% saturation reduction, 15% brightness reduction, and 3-pixel Gaussian blur. A shadow and subtle blue-gray rim glow follow the full traced silhouette behind the car layer, leaving the original vehicle geometry and color intact. No AI generation or unredacted browser assets are involved. The gallery retains the complete, unstyled photograph. If the hero photograph or its crop changes, retrace the mask against the new processed image.
+
+## Sharing preview
+
+`tsx-wagon/social-preview.png` is a metadata-free 1200 × 630 center crop made only from the already-redacted front three-quarter photo. Regenerate with ImageMagick:
+
+```sh
+magick tsx-wagon/photos/01-front-three-quarter.webp -resize 1200x -gravity center -crop 1200x630+0+0 +repage -strip /tmp/wagon-social-preview.png
+mv /tmp/wagon-social-preview.png tsx-wagon/social-preview.png
+```
+
+The page's Open Graph and Twitter card metadata use its public URL on `https://rura.org/tsx-wagon/`. `favicon.svg` is a black wagon outline on a white background.
+
+## Related brochure thumbnail
+
+`tsx-wagon/related/tsx-wagon-brochure.webp` is an Acura promotional photograph from the third image in [u/vulqcii’s brochure post](https://www.reddit.com/r/AcuraTSX/comments/1xc7xa8/found_2nd_gen_brochure_pictures/). It is separate from the sale-car gallery and credited beside the thumbnail. Visually reviewed: no license plates are present. Source: `https://preview.redd.it/found-2nd-gen-brochure-pictures-v0-rrthflp1vxwh1.jpeg?width=1080&crop=smart&auto=webp&s=8af55837f960e2dc6f83df0dbfb4ff04d86036c1`. Crop the 1080 × 834 source to `825x658+205+49`, resize to 640 pixels wide, strip metadata, and encode WebP at quality 84 using ImageMagick. Keep the downloaded source outside the repository.
 
 ## Publication boundary
 

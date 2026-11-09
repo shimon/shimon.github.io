@@ -62,6 +62,7 @@ const wagon = {
     "src": "photos/23-head-unit-maps.webp",
     "group": "details",
     "caption": "Head unit \u00b7 Google Maps",
+    "reviewUrl": "https://www.reddit.com/r/AcuraTSX/comments/1jhsj0p/review_android_screen_upgrade_in_my_2011_tsx/",
     "alt": "Aftermarket head unit displaying Google Maps through Android Auto."
   },
   {
@@ -188,7 +189,15 @@ if (galleryPhotos.length) {
     button.append(image);
     button.addEventListener('click', () => showPhoto(index));
     fig.append(button);
-    if (photo.caption) fig.append(el('figcaption', photo.caption));
+    if (photo.caption) {
+      const caption = el('figcaption', photo.caption);
+      if (photo.reviewUrl) {
+        const link = el('a', 'Read my installation review');
+        link.href = photo.reviewUrl;
+        caption.append(document.createTextNode(' · '), link);
+      }
+      fig.append(caption);
+    }
     document.getElementById(`gallery-${photo.group}`).append(fig);
   });
   reveal('gallery-section');

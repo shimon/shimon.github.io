@@ -41,14 +41,15 @@
 .hero .eyebrow{color:#e4b783}
 .hero h1{font-size:clamp(3.4rem,5.7vw,6.4rem)}
 .hero .intro,.hero .draft-note{color:#cfdbd8}
-.hero .text-link{border-color:#d9b887}
+.hero .text-link{display:inline-flex;align-items:center;white-space:nowrap;border-color:#d9b887}
 .hero a:focus-visible{outline-color:#f1c38c}
 .hero-media{width:100%;min-width:0;min-height:0;aspect-ratio:1500/1110;background:transparent;isolation:isolate;overflow:hidden;align-self:start}
 .hero-scene{display:block;width:100%;height:auto}
 @media(min-width:1800px){.hero{padding-inline:calc((100% - 1800px)/2)}}
 @media(max-width:900px){
   .hero{grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr)}
-  .hero-copy{padding-bottom:5rem}
+  /* Reserve room for the road curves below the call to action. */
+  .hero-copy{padding-bottom:10rem}
   .hero h1{font-size:clamp(3rem,5.7vw,4rem)}
 }
 @media(max-width:680px){
@@ -63,3 +64,15 @@
   .hero .text-link{border-color:var(--ink)}
   .hero a:focus-visible{outline-color:#8a5423}
 }
+
+/* Related reading stays separate from photographs of the sale car. */
+.related-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:2.5rem}
+.related-card{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:1.4rem;align-items:start}
+.related-image{display:block}
+.related-image img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;object-position:center bottom}
+.related-card h3{font-size:1.15rem;margin:0 0 .6rem}
+.related-card p{font-size:.85rem;margin:0 0 .65rem;color:var(--muted)}
+.related-card .related-source{font-size:.65rem;letter-spacing:.06em;text-transform:uppercase}
+.related-card .record-note{font-size:.72rem}
+@media(max-width:1000px){.related-links{grid-template-columns:1fr}}
+@media(max-width:480px){.related-card{grid-template-columns:1fr;gap:1rem}}
