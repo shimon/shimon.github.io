@@ -15,3 +15,13 @@ vendor/
 
 # Jekyll 4 build cache
 .jekyll-cache/
+
+# Wagon tooling dependencies and private source material (keep originals outside this repo)
+scripts/wagon-photos/node_modules/
+scripts/wagon-photos/sources.json
+scripts/wagon-photos/wagon-download.json
+tsx-wagon/**/*.jpg
+tsx-wagon/**/*.jpeg
+tsx-wagon/**/*.mp4
+tsx-wagon/**/*.mov
+tsx-wagon/**/*.zip

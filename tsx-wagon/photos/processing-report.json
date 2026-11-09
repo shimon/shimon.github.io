@@ -1,0 +1,222 @@
+{
+  "pillow_version": "13.0.0",
+  "manifest_sha256": "5a1b6f9ec7f6f224178d01ad3a8255629dbcbe7bdc50475ebba2637fff02b34c",
+  "photos": [
+    {
+      "output": "01-front-three-quarter.webp",
+      "sha256": "9f65fa4cc0c384cc1d17414d81cd05416633421f166b8298f627f003ee5a8e03",
+      "size": [
+        2000,
+        1506
+      ],
+      "plate_review": "redacted"
+    },
+    {
+      "output": "02-side-profile.webp",
+      "sha256": "8c69c1a0762b43b124b9174ac0da2cd113d588c4e6cfae2ca8ab884322ab54c0",
+      "size": [
+        2000,
+        1506
+      ],
+      "plate_review": "redacted"
+    },
+    {
+      "output": "03-rear-three-quarter.webp",
+      "sha256": "c95bf21309942676130b14a2c45d777f029c57997c6fc7c45d6e031c7ae08006",
+      "size": [
+        2000,
+        1506
+      ],
+      "plate_review": "redacted"
+    },
+    {
+      "output": "04-front.webp",
+      "sha256": "4deb0e00b18065129c89d7340089288f49c174674754d8026bee566925178418",
+      "size": [
+        2000,
+        1506
+      ],
+      "plate_review": "redacted"
+    },
+    {
+      "output": "05-rear.webp",
+      "sha256": "acfaa23af496128decad778b41b161e380abe40c84b4807b08d07311fa28b6c8",
+      "size": [
+        2000,
+        1506
+      ],
+      "plate_review": "redacted"
+    },
+    {
+      "output": "06-roof.webp",
+      "sha256": "21a95a3c7d8cdc6ad9e2a9e97803824fefb67e68361ac91aa2f43c2887c97476",
+      "size": [
+        2000,
+        1506
+      ],
+      "plate_review": "no_plate_visible"
+    },
+    {
+      "output": "07-front-seats.webp",
+      "sha256": "c46eee833774e3aff5fb01f102ac1a7238182a8a53f8b235c5db599711020f45",
+      "size": [
+        2000,
+        1506
+      ],
+      "plate_review": "no_plate_visible"
+    },
+    {
+      "output": "08-rear-seats.webp",
+      "sha256": "248356edf7efec793628ec847b96054b32d3737e10bb23e4173a20991fb47c30",
+      "size": [
+        2000,
+        1506
+      ],
+      "plate_review": "no_plate_visible"
+    },
+    {
+      "output": "09-cockpit.webp",
+      "sha256": "20ebae92defff06bbb1ecc0a76e31b9b45d117ba770d8abb0fd711c04adfce13",
+      "size": [
+        2000,
+        1506
+      ],
+      "plate_review": "redacted"
+    },
+    {
+      "output": "10-cargo.webp",
+      "sha256": "8078845634c83e70d76f629a139b2789972c7d7c7d471279cdfac232328f50d0",
+      "size": [
+        2000,
+        1506
+      ],
+      "plate_review": "no_plate_visible"
+    },
+    {
+      "output": "11-spare.webp",
+      "sha256": "e6e3b0e04003f5fd8352037b35bc8c7aef223f6a569f8ca8280e7f19db13c771",
+      "size": [
+        2000,
+        1506
+      ],
+      "plate_review": "no_plate_visible"
+    },
+    {
+      "output": "12-engine.webp",
+      "sha256": "d1c4e764a50ce27be24225be2494b94f6932ee539b0f3ca271a4f934a03aedb6",
+      "size": [
+        2000,
+        1506
+      ],
+      "plate_review": "no_plate_visible"
+    },
+    {
+      "output": "13-rocker-detail.webp",
+      "sha256": "09d68e33614dac6c1dc45c269dc1222f8d852274838fca54d5fd6ddb938ad9f1",
+      "size": [
+        2000,
+        1506
+      ],
+      "plate_review": "no_plate_visible"
+    },
+    {
+      "output": "14-rocker-detail.webp",
+      "sha256": "bfd9ebd9839b19e5ba666e9a80fbf2b3e622b47379c245a28bdb2c90434abf06",
+      "size": [
+        2000,
+        1506
+      ],
+      "plate_review": "no_plate_visible"
+    },
+    {
+      "output": "15-seat-wear.webp",
+      "sha256": "5ba66244ebc7ebd97d79aafb7dfe7f770fb123ab9c36b8630011e17dddc12d43",
+      "size": [
+        1506,
+        2000
+      ],
+      "plate_review": "no_plate_visible"
+    },
+    {
+      "output": "16-body-scuffs.webp",
+      "sha256": "b2919f7474ef0d8658142f55e846385e93eabbcb33648a053b6acda7e8297495",
+      "size": [
+        2000,
+        1506
+      ],
+      "plate_review": "no_plate_visible"
+    },
+    {
+      "output": "17-odometer.webp",
+      "sha256": "7ce15ca024c65fb7f154b84981c21f58a408f7f0bc6fb89ce01d2d4e9ae140ba",
+      "size": [
+        2000,
+        958
+      ],
+      "plate_review": "no_plate_visible"
+    },
+    {
+      "output": "18-front-driver-wheel.webp",
+      "sha256": "7d9ab1a6107bdcabfb7109baf41ac69337911f7d554d82b027d4b5a0c02715af",
+      "size": [
+        2000,
+        1506
+      ],
+      "plate_review": "no_plate_visible"
+    },
+    {
+      "output": "19-rear-driver-wheel.webp",
+      "sha256": "eb1bd4d15b8b55f67724e5332540d7d006a154aeba47e9089070fa538f90bfdf",
+      "size": [
+        2000,
+        1506
+      ],
+      "plate_review": "no_plate_visible"
+    },
+    {
+      "output": "20-front-passenger-wheel.webp",
+      "sha256": "8cdb6e55e95fb534082eb3b6b1b91e79fbf0e32bb3635d4d920a3f107a02a2f8",
+      "size": [
+        2000,
+        1506
+      ],
+      "plate_review": "no_plate_visible"
+    },
+    {
+      "output": "21-rear-passenger-wheel.webp",
+      "sha256": "86f14ca4100d33e8e694a2032e145468a72789fe1f14a951e13d7e468f9de2ee",
+      "size": [
+        2000,
+        1506
+      ],
+      "plate_review": "no_plate_visible"
+    },
+    {
+      "output": "22-spare-wheel.webp",
+      "sha256": "753b0530f2f0c19c38167e1b80d105c13a367d8eafd0060619f80eb3836286ad",
+      "size": [
+        2000,
+        1506
+      ],
+      "plate_review": "no_plate_visible"
+    },
+    {
+      "output": "23-head-unit-maps.webp",
+      "sha256": "97149879aeb0354ed189dbc747afaaaf88ea1c008f4b1cfcbe55d4a563e20120",
+      "size": [
+        2000,
+        1506
+      ],
+      "plate_review": "no_plate_visible"
+    },
+    {
+      "output": "24-head-unit-camera.webp",
+      "sha256": "7b6a4f6651b548f85b0b8ce82b5e2d87a9315458a322b126b81a823c97780e7c",
+      "size": [
+        2000,
+        1506
+      ],
+      "plate_review": "redacted"
+    }
+  ]
+}

@@ -1,0 +1,684 @@
+{
+  "pillow_version": "13.0.0",
+  "mask_rgb": [
+    28,
+    35,
+    32
+  ],
+  "max_size": [
+    2000,
+    2000
+  ],
+  "quality": 88,
+  "photos": [
+    {
+      "source": "PXL_20261108_154255482.jpg",
+      "source_sha256": "17ca6cc919ff655952bd7c9477b2241eabc8e39c0fa805b900a7d7a09cc8d972",
+      "oriented_size": [
+        4080,
+        3072
+      ],
+      "output": "01-front-three-quarter.webp",
+      "plate_review": "redacted",
+      "plate_rectangles": [],
+      "review_note": "Plate faces traced against the hash-verified original. Opaque light-colored polygons stay within the plate faces; frames, bumper detail and body wear preserved. Background plates included.",
+      "plate_polygons": [
+        {
+          "points": [
+            [
+              3363,
+              1988
+            ],
+            [
+              3447,
+              1966
+            ],
+            [
+              3454,
+              1969
+            ],
+            [
+              3461,
+              2070
+            ],
+            [
+              3456,
+              2076
+            ],
+            [
+              3366,
+              2097
+            ],
+            [
+              3363,
+              2092
+            ]
+          ],
+          "fill_rgb": [
+            211,
+            218,
+            214
+          ]
+        },
+        {
+          "points": [
+            [
+              3661,
+              1757
+            ],
+            [
+              3689,
+              1750
+            ],
+            [
+              3690,
+              1786
+            ],
+            [
+              3660,
+              1796
+            ]
+          ],
+          "fill_rgb": [
+            207,
+            216,
+            218
+          ]
+        }
+      ]
+    },
+    {
+      "source": "PXL_20261108_153727261.jpg",
+      "source_sha256": "d58df7c54214724637c079319ee899d4e2299f6f4e836a46ce91d22c68387dcb",
+      "oriented_size": [
+        4080,
+        3072
+      ],
+      "output": "02-side-profile.webp",
+      "plate_review": "redacted",
+      "plate_rectangles": [],
+      "review_note": "Plate faces traced against the hash-verified original. Opaque light-colored polygons stay within the plate faces; frames, bumper detail and body wear preserved. Background plates included.",
+      "plate_polygons": [
+        {
+          "points": [
+            [
+              3136,
+              1076
+            ],
+            [
+              3148,
+              1078
+            ],
+            [
+              3146,
+              1096
+            ],
+            [
+              3134,
+              1094
+            ]
+          ],
+          "fill_rgb": [
+            185,
+            187,
+            184
+          ]
+        },
+        {
+          "points": [
+            [
+              3276,
+              1046
+            ],
+            [
+              3300,
+              1046
+            ],
+            [
+              3298,
+              1065
+            ],
+            [
+              3275,
+              1065
+            ]
+          ],
+          "fill_rgb": [
+            179,
+            181,
+            175
+          ]
+        }
+      ]
+    },
+    {
+      "source": "PXL_20261108_153717666.MP.jpg",
+      "source_sha256": "6343bcfa59b652c84a4a6f58e2dbf2de9f5ec035557d4069391efe499f8cdf63",
+      "oriented_size": [
+        4080,
+        3072
+      ],
+      "output": "03-rear-three-quarter.webp",
+      "plate_review": "redacted",
+      "plate_rectangles": [],
+      "review_note": "Plate faces traced against the hash-verified original. Opaque light-colored polygons stay within the plate faces; frames, bumper detail and body wear preserved. Background plates included.",
+      "plate_polygons": [
+        {
+          "points": [
+            [
+              851,
+              1499
+            ],
+            [
+              995,
+              1529
+            ],
+            [
+              967,
+              1671
+            ],
+            [
+              835,
+              1635
+            ]
+          ],
+          "fill_rgb": [
+            199,
+            198,
+            187
+          ]
+        },
+        {
+          "points": [
+            [
+              3473,
+              1056
+            ],
+            [
+              3549,
+              1056
+            ],
+            [
+              3545,
+              1085
+            ],
+            [
+              3472,
+              1086
+            ]
+          ],
+          "fill_rgb": [
+            194,
+            197,
+            190
+          ]
+        }
+      ]
+    },
+    {
+      "source": "PXL_20261108_153745688.MP.jpg",
+      "source_sha256": "3d0061a45ad4e83a600ae810c89583e2703d3187e2547d2b1036412f309f0144",
+      "oriented_size": [
+        4080,
+        3072
+      ],
+      "output": "04-front.webp",
+      "plate_review": "redacted",
+      "plate_rectangles": [],
+      "review_note": "Plate faces traced against the hash-verified original. Opaque light-colored polygons stay within the plate faces; frames, bumper detail and body wear preserved. Background plates included.",
+      "plate_polygons": [
+        {
+          "points": [
+            [
+              2017,
+              1750
+            ],
+            [
+              2678,
+              1739
+            ],
+            [
+              2689,
+              1750
+            ],
+            [
+              2692,
+              2055
+            ],
+            [
+              2682,
+              2067
+            ],
+            [
+              2014,
+              2074
+            ],
+            [
+              2003,
+              2062
+            ],
+            [
+              2002,
+              1771
+            ]
+          ],
+          "fill_rgb": [
+            192,
+            199,
+            196
+          ]
+        }
+      ]
+    },
+    {
+      "source": "PXL_20261108_153709170.MP.jpg",
+      "source_sha256": "b40280310326e2e2fc0177cb6f056acdb0c273de3c5acff1982e7204b080e75b",
+      "oriented_size": [
+        4080,
+        3072
+      ],
+      "output": "05-rear.webp",
+      "plate_review": "redacted",
+      "plate_rectangles": [],
+      "review_note": "Plate faces traced against the hash-verified original. Opaque light-colored polygons stay within the plate faces; frames, bumper detail and body wear preserved. Background plates included.",
+      "plate_polygons": [
+        {
+          "points": [
+            [
+              1813,
+              1392
+            ],
+            [
+              1826,
+              1388
+            ],
+            [
+              2272,
+              1378
+            ],
+            [
+              2282,
+              1386
+            ],
+            [
+              2282,
+              1594
+            ],
+            [
+              2273,
+              1604
+            ],
+            [
+              1824,
+              1615
+            ],
+            [
+              1812,
+              1608
+            ]
+          ],
+          "fill_rgb": [
+            218,
+            214,
+            203
+          ]
+        },
+        {
+          "points": [
+            [
+              401,
+              609
+            ],
+            [
+              467,
+              605
+            ],
+            [
+              470,
+              638
+            ],
+            [
+              404,
+              641
+            ]
+          ],
+          "fill_rgb": [
+            190,
+            203,
+            205
+          ]
+        },
+        {
+          "points": [
+            [
+              2745,
+              571
+            ],
+            [
+              2805,
+              573
+            ],
+            [
+              2803,
+              600
+            ],
+            [
+              2741,
+              600
+            ]
+          ],
+          "fill_rgb": [
+            191,
+            198,
+            193
+          ]
+        },
+        {
+          "points": [
+            [
+              3283,
+              570
+            ],
+            [
+              3343,
+              569
+            ],
+            [
+              3343,
+              596
+            ],
+            [
+              3284,
+              597
+            ]
+          ],
+          "fill_rgb": [
+            189,
+            198,
+            199
+          ]
+        }
+      ]
+    },
+    {
+      "source": "PXL_20261108_153755131.MP.jpg",
+      "source_sha256": "7393e36896cc12d12a4ba62edce17f283346f9d3e1d93a78a81abf322c9ead78",
+      "oriented_size": [
+        4080,
+        3072
+      ],
+      "output": "06-roof.webp",
+      "plate_review": "no_plate_visible",
+      "plate_rectangles": [],
+      "review_note": "Main and background plates inspected."
+    },
+    {
+      "source": "PXL_20261108_153955730.MP.jpg",
+      "source_sha256": "c6ca03a13c3fae73ee150edc9d62c4c922e015b06680958fe4eaaa8643b5ef29",
+      "oriented_size": [
+        4080,
+        3072
+      ],
+      "output": "07-front-seats.webp",
+      "plate_review": "no_plate_visible",
+      "plate_rectangles": [],
+      "review_note": "Main and background plates inspected."
+    },
+    {
+      "source": "PXL_20261108_154010251.jpg",
+      "source_sha256": "679c0935234e9d41eca7f54f76a2bf4b207a41aeab12ea5a2588f9c5e47573fd",
+      "oriented_size": [
+        4080,
+        3072
+      ],
+      "output": "08-rear-seats.webp",
+      "plate_review": "no_plate_visible",
+      "plate_rectangles": [],
+      "review_note": "Main and background plates inspected."
+    },
+    {
+      "source": "PXL_20261108_154001873.jpg",
+      "source_sha256": "144a48ee18b817baab96f6f9fdad3809574ec6ff2db7c871dbf9a69ae73d1b70",
+      "oriented_size": [
+        4080,
+        3072
+      ],
+      "output": "09-cockpit.webp",
+      "plate_review": "redacted",
+      "plate_rectangles": [
+        [
+          1236,
+          587,
+          1388,
+          686
+        ],
+        [
+          1652,
+          571,
+          1812,
+          670
+        ],
+        [
+          285,
+          652,
+          641,
+          861
+        ]
+      ],
+      "review_note": "Main and background plates inspected; windshield sticker also masked in cockpit view."
+    },
+    {
+      "source": "PXL_20261107_212744469.MP.jpg",
+      "source_sha256": "da1c53b76ac5683120619f2946c11bbd3afc924c93a829403a11cd15c6c9a93c",
+      "oriented_size": [
+        4080,
+        3072
+      ],
+      "output": "10-cargo.webp",
+      "plate_review": "no_plate_visible",
+      "plate_rectangles": [],
+      "review_note": "Main and background plates inspected."
+    },
+    {
+      "source": "PXL_20261107_212717505.MP.jpg",
+      "source_sha256": "60865b34d4eab81c9c6d7ee598fa80872d9f8b2cd35f583ba65fafb900899703",
+      "oriented_size": [
+        4080,
+        3072
+      ],
+      "output": "11-spare.webp",
+      "plate_review": "no_plate_visible",
+      "plate_rectangles": [],
+      "review_note": "Main and background plates inspected."
+    },
+    {
+      "source": "PXL_20261107_165134628.MP.jpg",
+      "source_sha256": "f1f7d3425a317cc6d9765b17c1ebb54855b9e40a4e7200e7b0209a8d9db18d3c",
+      "oriented_size": [
+        4080,
+        3072
+      ],
+      "output": "12-engine.webp",
+      "plate_review": "no_plate_visible",
+      "plate_rectangles": [],
+      "review_note": "Main and background plates inspected."
+    },
+    {
+      "source": "PXL_20261108_153829122.jpg",
+      "source_sha256": "b44a6322fe609605b81322a4c8d67e1fb7e8f2608ee00ef9ec1d5aa6ee9f0c7a",
+      "oriented_size": [
+        4080,
+        3072
+      ],
+      "output": "13-rocker-detail.webp",
+      "plate_review": "no_plate_visible",
+      "plate_rectangles": [],
+      "review_note": "Main and background plates inspected."
+    },
+    {
+      "source": "PXL_20261108_153843932.jpg",
+      "source_sha256": "6de5ca526c9709df548b80497c8232dbef47168af762b8c35e6fb4036a2c656f",
+      "oriented_size": [
+        4080,
+        3072
+      ],
+      "output": "14-rocker-detail.webp",
+      "plate_review": "no_plate_visible",
+      "plate_rectangles": [],
+      "review_note": "Main and background plates inspected."
+    },
+    {
+      "source": "PXL_20261107_213514848.jpg",
+      "source_sha256": "e8f4f9f5b64693965180468ecde274d95c411b7c9fad9b41e579d9e3a2016391",
+      "oriented_size": [
+        3072,
+        4080
+      ],
+      "output": "15-seat-wear.webp",
+      "plate_review": "no_plate_visible",
+      "plate_rectangles": [],
+      "review_note": "Main and background plates inspected."
+    },
+    {
+      "source": "PXL_20261108_153922495.jpg",
+      "source_sha256": "b531541bfb8ac0cf0108dac46bc5322bbc630b95a9d163339acc9500426df8b6",
+      "oriented_size": [
+        4080,
+        3072
+      ],
+      "output": "16-body-scuffs.webp",
+      "plate_review": "no_plate_visible",
+      "plate_rectangles": [],
+      "review_note": "Main and background plates inspected."
+    },
+    {
+      "source": "PXL_20261107_213828969.jpg",
+      "source_sha256": "fb591de9766ed4f22e5708e6324f713458a922765e2dd55cd76e59f73f48d046",
+      "oriented_size": [
+        4080,
+        3072
+      ],
+      "output": "17-odometer.webp",
+      "plate_review": "no_plate_visible",
+      "plate_rectangles": [],
+      "crop": [
+        800,
+        800,
+        3200,
+        1950
+      ],
+      "review_note": "Dashboard crop preserves odometer and excludes outside scene, windshield sticker, and screen."
+    },
+    {
+      "source": "PXL_20261108_153826346.MP.jpg",
+      "source_sha256": "e634d70b926e193533ee92bcedca841c5f3ebdff4fe53035c78a51fb1e1b21f3",
+      "oriented_size": [
+        4080,
+        3072
+      ],
+      "output": "18-front-driver-wheel.webp",
+      "plate_review": "no_plate_visible",
+      "plate_rectangles": [],
+      "review_note": "Wheel photograph visually reviewed, including body reflections and background; no license plate visible. Wear preserved."
+    },
+    {
+      "source": "PXL_20261108_153820762.jpg",
+      "source_sha256": "2c61ecfbd26d523ee628ece7d7a1959b2cde9d55f005711f0bda3b962b3e7217",
+      "oriented_size": [
+        4080,
+        3072
+      ],
+      "output": "19-rear-driver-wheel.webp",
+      "plate_review": "no_plate_visible",
+      "plate_rectangles": [],
+      "review_note": "Wheel photograph visually reviewed, including body reflections and background; no license plate visible. Wear preserved."
+    },
+    {
+      "source": "PXL_20261108_153805629.jpg",
+      "source_sha256": "85dd7baa58c0de965834ddb43994619f9eb7915462cfe6c204c4f8b3b5c61776",
+      "oriented_size": [
+        4080,
+        3072
+      ],
+      "output": "20-front-passenger-wheel.webp",
+      "plate_review": "no_plate_visible",
+      "plate_rectangles": [],
+      "review_note": "Wheel photograph visually reviewed, including body reflections and background; no license plate visible. Wear preserved."
+    },
+    {
+      "source": "PXL_20261108_153811662.jpg",
+      "source_sha256": "50b656e40a96e49bfbc1165a1e7b78acc926db5bd51d0d3630ca4b4a926d5093",
+      "oriented_size": [
+        4080,
+        3072
+      ],
+      "output": "21-rear-passenger-wheel.webp",
+      "plate_review": "no_plate_visible",
+      "plate_rectangles": [],
+      "review_note": "Wheel photograph visually reviewed, including body reflections and background; no license plate visible. Wear preserved."
+    },
+    {
+      "source": "PXL_20261107_212056323.jpg",
+      "source_sha256": "30dcece3b1f73e9f41b19d6594724fe633239ab72760127aab76be51547d820e",
+      "oriented_size": [
+        4080,
+        3072
+      ],
+      "output": "22-spare-wheel.webp",
+      "plate_review": "no_plate_visible",
+      "plate_rectangles": [],
+      "review_note": "Wheel photograph visually reviewed, including body reflections and background; no license plate visible. Wear preserved."
+    },
+    {
+      "source": "PXL_20261107_213422199.jpg",
+      "source_sha256": "0d1d555edbf442d50af9094a0709d9e8ad96273d7d52517e5dbe4309c854e7cb",
+      "oriented_size": [
+        4080,
+        3072
+      ],
+      "output": "23-head-unit-maps.webp",
+      "plate_review": "no_plate_visible",
+      "plate_rectangles": [],
+      "review_note": "Head-unit display, windshield background and reflections visually reviewed. No license plates or private account details visible."
+    },
+    {
+      "source": "PXL_20261107_213825679.jpg",
+      "source_sha256": "e92288357ebc9e345d0e00c5ffa608a527253d4490418f7e661719b17857f4ef",
+      "oriented_size": [
+        4080,
+        3072
+      ],
+      "output": "24-head-unit-camera.webp",
+      "plate_review": "redacted",
+      "plate_rectangles": [],
+      "review_note": "Small front plate on the background car within the camera display masked with an opaque polygon. Remaining scene and reflections reviewed.",
+      "plate_polygons": [
+        {
+          "points": [
+            [
+              1890,
+              1265
+            ],
+            [
+              1903,
+              1265
+            ],
+            [
+              1903,
+              1282
+            ],
+            [
+              1890,
+              1283
+            ]
+          ],
+          "fill_rgb": [
+            146,
+            193,
+            203
+          ]
+        }
+      ]
+    }
+  ]
+}
