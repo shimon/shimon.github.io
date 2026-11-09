@@ -568,6 +568,117 @@
         1950
       ],
       "review_note": "Dashboard crop preserves odometer and excludes outside scene, windshield sticker, and screen."
+    },
+    {
+      "source": "PXL_20261108_153826346.MP.jpg",
+      "source_sha256": "e634d70b926e193533ee92bcedca841c5f3ebdff4fe53035c78a51fb1e1b21f3",
+      "oriented_size": [
+        4080,
+        3072
+      ],
+      "output": "18-front-driver-wheel.webp",
+      "plate_review": "no_plate_visible",
+      "plate_rectangles": [],
+      "review_note": "Wheel photograph visually reviewed, including body reflections and background; no license plate visible. Wear preserved."
+    },
+    {
+      "source": "PXL_20261108_153820762.jpg",
+      "source_sha256": "2c61ecfbd26d523ee628ece7d7a1959b2cde9d55f005711f0bda3b962b3e7217",
+      "oriented_size": [
+        4080,
+        3072
+      ],
+      "output": "19-rear-driver-wheel.webp",
+      "plate_review": "no_plate_visible",
+      "plate_rectangles": [],
+      "review_note": "Wheel photograph visually reviewed, including body reflections and background; no license plate visible. Wear preserved."
+    },
+    {
+      "source": "PXL_20261108_153805629.jpg",
+      "source_sha256": "85dd7baa58c0de965834ddb43994619f9eb7915462cfe6c204c4f8b3b5c61776",
+      "oriented_size": [
+        4080,
+        3072
+      ],
+      "output": "20-front-passenger-wheel.webp",
+      "plate_review": "no_plate_visible",
+      "plate_rectangles": [],
+      "review_note": "Wheel photograph visually reviewed, including body reflections and background; no license plate visible. Wear preserved."
+    },
+    {
+      "source": "PXL_20261108_153811662.jpg",
+      "source_sha256": "50b656e40a96e49bfbc1165a1e7b78acc926db5bd51d0d3630ca4b4a926d5093",
+      "oriented_size": [
+        4080,
+        3072
+      ],
+      "output": "21-rear-passenger-wheel.webp",
+      "plate_review": "no_plate_visible",
+      "plate_rectangles": [],
+      "review_note": "Wheel photograph visually reviewed, including body reflections and background; no license plate visible. Wear preserved."
+    },
+    {
+      "source": "PXL_20261107_212056323.jpg",
+      "source_sha256": "30dcece3b1f73e9f41b19d6594724fe633239ab72760127aab76be51547d820e",
+      "oriented_size": [
+        4080,
+        3072
+      ],
+      "output": "22-spare-wheel.webp",
+      "plate_review": "no_plate_visible",
+      "plate_rectangles": [],
+      "review_note": "Wheel photograph visually reviewed, including body reflections and background; no license plate visible. Wear preserved."
+    },
+    {
+      "source": "PXL_20261107_213422199.jpg",
+      "source_sha256": "0d1d555edbf442d50af9094a0709d9e8ad96273d7d52517e5dbe4309c854e7cb",
+      "oriented_size": [
+        4080,
+        3072
+      ],
+      "output": "23-head-unit-maps.webp",
+      "plate_review": "no_plate_visible",
+      "plate_rectangles": [],
+      "review_note": "Head-unit display, windshield background and reflections visually reviewed. No license plates or private account details visible."
+    },
+    {
+      "source": "PXL_20261107_213825679.jpg",
+      "source_sha256": "e92288357ebc9e345d0e00c5ffa608a527253d4490418f7e661719b17857f4ef",
+      "oriented_size": [
+        4080,
+        3072
+      ],
+      "output": "24-head-unit-camera.webp",
+      "plate_review": "redacted",
+      "plate_rectangles": [],
+      "review_note": "Small front plate on the background car within the camera display masked with an opaque polygon. Remaining scene and reflections reviewed.",
+      "plate_polygons": [
+        {
+          "points": [
+            [
+              1890,
+              1265
+            ],
+            [
+              1903,
+              1265
+            ],
+            [
+              1903,
+              1282
+            ],
+            [
+              1890,
+              1283
+            ]
+          ],
+          "fill_rgb": [
+            146,
+            193,
+            203
+          ]
+        }
+      ]
     }
   ]
 }

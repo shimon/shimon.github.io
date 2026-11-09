@@ -51,6 +51,7 @@ exclude:
   - README-LinkedIn.md   # dev docs, not a page
   - scripts/wagon-photos # photo tooling is not part of the public site
   - tsx-wagon/photos/processing-report.json
+  - tsx-wagon/thumbnails/processing-report.json
   - "**/.#*"   # Emacs lock symlinks
   - "**/#*#"   # Emacs auto-save files
   - "**/*~"    # Emacs/vi backup files

@@ -14,6 +14,7 @@ from pathlib import Path
 import urllib.request
 from urllib.parse import urlsplit
 from PIL import Image, ImageDraw, ImageOps, __version__
+from atomic_output import atomic_write_bytes
 
 MAX_BYTES = 80 * 1024 * 1024
 Image.MAX_IMAGE_PIXELS = 80_000_000
@@ -123,12 +124,14 @@ def main():
             clean = clean.crop((x0, y0, x1, y1))
         clean.thumbnail(tuple(config['max_size']), Image.Resampling.LANCZOS)
         target = output / name
-        clean.save(target, 'WEBP', quality=config['quality'], method=6, exact=True)
+        encoded = io.BytesIO()
+        clean.save(encoded, 'WEBP', quality=config['quality'], method=6, exact=True)
+        atomic_write_bytes(target, encoded.getvalue())
         with Image.open(target) as result:
             if result.getexif() or any(k in result.info for k in ('exif', 'xmp', 'icc_profile')):
                 raise ValueError('Unexpected metadata in processed output')
         report['photos'].append({'output': name, 'sha256': digest(target.read_bytes()), 'size': list(clean.size), 'plate_review': status})
-    (output / 'processing-report.json').write_text(json.dumps(report, indent=2) + '\n')
+    atomic_write_bytes(output / 'processing-report.json', (json.dumps(report, indent=2) + '\n').encode())
     print(f"Processed {len(report['photos'])} reviewed photographs")
 
 if __name__ == '__main__':

@@ -1,6 +1,6 @@
 {
   "pillow_version": "13.0.0",
-  "manifest_sha256": "91e78b2a0e5bc08a2e3f7c202063efacc88be8665af96c6b98ca3242f0610f43",
+  "manifest_sha256": "5a1b6f9ec7f6f224178d01ad3a8255629dbcbe7bdc50475ebba2637fff02b34c",
   "photos": [
     {
       "output": "01-front-three-quarter.webp",
@@ -154,6 +154,69 @@
         958
       ],
       "plate_review": "no_plate_visible"
+    },
+    {
+      "output": "18-front-driver-wheel.webp",
+      "sha256": "7d9ab1a6107bdcabfb7109baf41ac69337911f7d554d82b027d4b5a0c02715af",
+      "size": [
+        2000,
+        1506
+      ],
+      "plate_review": "no_plate_visible"
+    },
+    {
+      "output": "19-rear-driver-wheel.webp",
+      "sha256": "eb1bd4d15b8b55f67724e5332540d7d006a154aeba47e9089070fa538f90bfdf",
+      "size": [
+        2000,
+        1506
+      ],
+      "plate_review": "no_plate_visible"
+    },
+    {
+      "output": "20-front-passenger-wheel.webp",
+      "sha256": "8cdb6e55e95fb534082eb3b6b1b91e79fbf0e32bb3635d4d920a3f107a02a2f8",
+      "size": [
+        2000,
+        1506
+      ],
+      "plate_review": "no_plate_visible"
+    },
+    {
+      "output": "21-rear-passenger-wheel.webp",
+      "sha256": "86f14ca4100d33e8e694a2032e145468a72789fe1f14a951e13d7e468f9de2ee",
+      "size": [
+        2000,
+        1506
+      ],
+      "plate_review": "no_plate_visible"
+    },
+    {
+      "output": "22-spare-wheel.webp",
+      "sha256": "753b0530f2f0c19c38167e1b80d105c13a367d8eafd0060619f80eb3836286ad",
+      "size": [
+        2000,
+        1506
+      ],
+      "plate_review": "no_plate_visible"
+    },
+    {
+      "output": "23-head-unit-maps.webp",
+      "sha256": "97149879aeb0354ed189dbc747afaaaf88ea1c008f4b1cfcbe55d4a563e20120",
+      "size": [
+        2000,
+        1506
+      ],
+      "plate_review": "no_plate_visible"
+    },
+    {
+      "output": "24-head-unit-camera.webp",
+      "sha256": "7b6a4f6651b548f85b0b8ce82b5e2d87a9315458a322b126b81a823c97780e7c",
+      "size": [
+        2000,
+        1506
+      ],
+      "plate_review": "redacted"
     }
   ]
 }

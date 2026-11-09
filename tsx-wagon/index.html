@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow"><meta name="description" content="Shimon’s 2011 Acura TSX Sport Wagon: photographs, condition, and service history.">
-<title>2011 Acura TSX Sport Wagon</title><link rel="stylesheet" href="style.css">
+<title>2011 Acura TSX Sport Wagon</title><link rel="stylesheet" href="style.css?v=photo-section-controls">
 <link rel="preload" as="image" href="photos/01-front-three-quarter.webp" fetchpriority="high">
 </head>
 <body>
@@ -17,16 +17,22 @@
   <filter id="wallpaper-glow" x="-10%" y="-150%" width="120%" height="400%"><feGaussianBlur stdDeviation="7"/></filter>
   <path id="wallpaper-copper-path" d="M-100 855 C240 775 580 820 910 884 S1370 916 1700 780"/>
   <path id="wallpaper-blue-path" d="M-100 905 C250 825 590 875 910 934 S1370 966 1700 830"/>
+  <radialGradient id="wallpaper-dark" cx=".76" cy=".38" r=".78"><stop stop-color="#3c5358"/><stop offset=".54" stop-color="#203b40"/><stop offset="1" stop-color="#142c30"/></radialGradient>
+  <!-- The backdrop ends on exactly the same curve as the lower blue trail. -->
+  <clipPath id="wallpaper-road-edge" clipPathUnits="userSpaceOnUse"><path d="M-100 905 C250 825 590 875 910 934 S1370 966 1700 830 L1700 -10 L-100 -10 Z"/></clipPath>
 </defs>
+<g clip-path="url(#wallpaper-road-edge)">
+<rect width="1600" height="1000" fill="url(#wallpaper-dark)"/>
 <g fill="none" stroke="#8dabb0" stroke-width="1" opacity=".12">
   <path d="M-100 660 Q750 640 1700 800 M-100 780 Q750 720 1700 890 M-100 920 Q750 830 1700 1000"/>
   <path d="M200 600 L0 1000 M450 600 L400 1000 M700 600 L800 1000 M950 600 L1200 1000 M1200 600 L1600 1000"/>
+</g>
 </g>
 <g fill="none" stroke-width="16" opacity=".55" filter="url(#wallpaper-glow)"><use href="#wallpaper-copper-path" stroke="url(#wallpaper-copper)"/><use href="#wallpaper-blue-path" stroke="url(#wallpaper-blue)"/></g>
 <g fill="none" stroke-width="2"><use href="#wallpaper-copper-path" stroke="url(#wallpaper-copper)"/><use href="#wallpaper-blue-path" stroke="url(#wallpaper-blue)"/></g>
 </svg>
 
-<div class="hero-copy"><p class="eyebrow">In appreciation of my favorite wagon</p><h1 id="title">Acura TSX<br>Sport Wagon.</h1><p class="intro">I’ve loved this wagon since 2014, and it has served our family well. I’d like it to go to someone who appreciates TSXs or wagons and can see past its imperfections.</p><p class="draft-note">132,113 miles photographed November 7, 2026 · Asking price to confirm.</p><a class="text-link" href="#gallery-section">See the photographs <span aria-hidden="true">&darr;</span></a></div>
+<div class="hero-copy"><p class="eyebrow">In appreciation of our favorite wagon</p><h1 id="title">Acura TSX<br>Sport Wagon</h1><p class="intro">I’ve loved this wagon since we got it in 2014. It has served our family well. Now we're selling it, and would love it to go to someone who can appreciate this beautiful and rare long-roof.</p><p class="draft-note">Cambridge, MA, US · 132,113 mi · <a href="mailto:shimon@rura.org">shimon@rura.org</a></p><a class="text-link" href="#gallery-section">See the photographs <span aria-hidden="true">&darr;</span></a></div>
 <div class="hero-media" id="hero-media">
 <!-- Deterministic vector composition; only the already-redacted photograph is loaded.
      The lower outline is traced in the 2000 × 1506 source coordinate system. -->
@@ -86,23 +92,55 @@
 </svg>
 </div>
 </section>
-<section class="spec-strip" aria-label="Vehicle details"><dl class="facts"><div><dt>Year</dt><dd>2011</dd></div><div><dt>Powertrain</dt><dd>2.4L four-cylinder · automatic</dd></div><div><dt>Equipment</dt><dd>Technology Package</dd></div></dl></section>
-<section class="section gallery-section" id="gallery-section" hidden><div class="section-heading"><h2>A closer look.</h2><p class="record-note">November 7–8, 2026 · Tap to enlarge. Plates masked; wear and damage left visible.</p></div><div id="gallery" class="gallery"></div></section>
+<section class="spec-strip" aria-labelledby="key-stats-title">
+<h2 id="key-stats-title">Key stats</h2>
+<dl class="facts">
+<div><dt>Mileage</dt><dd>132,113 miles <small>as of Nov 7, 2026</small></dd></div>
+<div><dt>Model year</dt><dd>2011</dd></div>
+<div><dt>Trim</dt><dd>Technology Package</dd></div>
+<div><dt>VIN</dt><dd>JH4CW2H64BC002110</dd></div>
+<div><dt>Powertrain</dt><dd>2.4L four-cylinder · 5-speed automatic</dd></div>
+<div><dt>Modifications</dt><dd>Stock except for an upgraded Android Auto / Apple CarPlay head unit</dd></div>
+</dl>
+</section>
+<section class="section gallery-section" id="gallery-section" hidden>
+<div class="section-heading"><p class="record-note">Photos November 7–8, 2026 · Tap to enlarge. Plates masked / no other changes.</p></div>
+<div id="gallery">
+<details class="photo-group" open>
+<summary><h3 id="overview-title">Overview</h3><span class="photo-toggle" aria-hidden="true"><span class="photo-expand">Expand</span><span class="photo-collapse">Collapse</span></span></summary>
+<div id="gallery-overview" class="gallery"></div>
+</details>
+<details class="photo-group" open>
+<summary><h3 id="details-title">Details</h3><span class="photo-toggle" aria-hidden="true"><span class="photo-expand">Expand</span><span class="photo-collapse">Collapse</span></span></summary>
+<div id="gallery-details" class="gallery"></div>
+<details class="photo-subgroup">
+<summary><h4 id="blemishes-title">Blemishes</h4><span class="photo-toggle" aria-hidden="true"><span class="photo-expand">Expand</span><span class="photo-collapse">Collapse</span></span></summary>
+<div id="gallery-blemishes" class="gallery"></div>
+</details>
+</details>
+</div>
+</section>
 <section class="section condition-section">
-<div class="section-heading"><h2>Condition</h2></div>
+<div class="section-heading"><h2>About this car</h2></div>
 <div class="condition-summary">
-<p><strong>Positives.</strong> This has been our family wagon since 2014, with the practicality of a roomy cargo area and the Technology Package. Recent work includes the alternator and battery, rear brakes, A/C repair, spark plugs, and a replacement backup camera. The upgraded head unit adds wireless Android Auto. The exhaust has been repaired and has no active leak.</p>
-<p><strong>Negatives.</strong> It shows its age: rocker-panel rust, body scuffs, and torn seat upholstery are visible in the photos. The sunroof is currently inoperable, and the aging exhaust may need more attention. The aftermarket screen has had integration quirks that should be checked at handoff. A 2024 collision repair is documented; the final repair details still need to be confirmed.</p>
+  <p>This has been our family wagon since 2014. It offers great cargo capacity like an SUV with the driving dynamics of a sedan. We've maintained it pretty well and it has plenty of life left in it. We're selling it because we've switched to an EV.</p>
+
+  <p>Work since 2025 includes tires, alternator, battery, exhaust repairs, new headlight lenses, and an upgraded head unit that supports wireless Android Auto and Apple Carplay.</p>
+
+  <p>The car is excellent mechanically. No mechanical issues. No warning lights. Starts great, drives great.</p>
+
+  <p>There are some issues appropriate to its age. You'll see some rocker-panel rust, body scuffs, and upholstery wear. The sunroof doesn't move (but is firmly closed with no leaks). There was a professional body repair in 2024 for a minor collision involving the rear passenger side quarter panel.</p>
+
 </div>
 </section>
 <section class="section service-section">
-<div class="section-heading"><h2>Service highlights.</h2></div>
+<div class="section-heading"><h2>Service highlights</h2></div>
 <div class="table-wrap"><table>
 <caption class="visually-hidden">Key service and equipment work by year</caption>
 <thead><tr><th scope="col">Year</th><th scope="col">Key service items</th></tr></thead>
 <tbody>
 <tr><th scope="row">2026</th><td>Exhaust repair</td></tr>
-<tr><th scope="row">2025</th><td>Alternator; AGM battery; rear brake pads and rotors; A/C suction hose and refrigerant; spark plugs; upgraded head unit with wireless Android Auto; replacement backup camera; oil and filters</td></tr>
+<tr><th scope="row">2025</th><td>Alternator; AGM battery; rear brake pads and rotors; A/C suction hose and refrigerant; spark plugs; upgraded head unit with wireless Android Auto; replacement backup camera</td></tr>
 <tr><th scope="row">2024</th><td>Replacement wheel set mounted and balanced; collision repair; oil change</td></tr>
 <tr><th scope="row">2023</th><td>Coolant replacement; oil and filter changes</td></tr>
 <tr><th scope="row">2021</th><td>Left upper control arm; exhaust engine pipe, gaskets, and hardware; oil change</td></tr>
@@ -113,5 +151,5 @@
 </main>
 <footer><a href="/">Back to rura.org</a><span>Our family wagon, since December 2014.</span></footer>
 <dialog id="photo-viewer" aria-labelledby="photo-caption"><div class="viewer-toolbar"><span id="photo-position"></span><button type="button" id="close-photo" aria-label="Close photograph">Close ×</button></div><img id="full-photo" alt=""><p id="photo-caption"></p><div class="viewer-nav"><button type="button" id="previous-photo">Previous</button><button type="button" id="next-photo">Next</button></div></dialog>
-<script src="site.js" defer></script>
+<script src="site.js?v=wheel-labels-corrected" defer></script>
 </body></html>

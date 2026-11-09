@@ -1,0 +1,221 @@
+{
+  "pillow_version": "13.0.0",
+  "photos": [
+    {
+      "output": "01-front-three-quarter.webp",
+      "source_sha256": "9f65fa4cc0c384cc1d17414d81cd05416633421f166b8298f627f003ee5a8e03",
+      "sha256": "b459e17da20e67ac64435a26b17657911d9ae59e956f8b5f94d440035621b221",
+      "size": [
+        800,
+        602
+      ]
+    },
+    {
+      "output": "02-side-profile.webp",
+      "source_sha256": "8c69c1a0762b43b124b9174ac0da2cd113d588c4e6cfae2ca8ab884322ab54c0",
+      "sha256": "bb422019ac7e8e513b436c48e4cd4afd00dfbd46d3ebc645c7ac2fa0dbce84bb",
+      "size": [
+        800,
+        602
+      ]
+    },
+    {
+      "output": "03-rear-three-quarter.webp",
+      "source_sha256": "c95bf21309942676130b14a2c45d777f029c57997c6fc7c45d6e031c7ae08006",
+      "sha256": "2c7b2c24386d23db66dfa06a977be6c05b37d435e1f6fe39f6dba93d7695935e",
+      "size": [
+        800,
+        602
+      ]
+    },
+    {
+      "output": "04-front.webp",
+      "source_sha256": "4deb0e00b18065129c89d7340089288f49c174674754d8026bee566925178418",
+      "sha256": "cb8da9f2697db168e68f9c3a280c0b5945eb059c698a3cb32b84328012c18fa9",
+      "size": [
+        800,
+        602
+      ]
+    },
+    {
+      "output": "05-rear.webp",
+      "source_sha256": "acfaa23af496128decad778b41b161e380abe40c84b4807b08d07311fa28b6c8",
+      "sha256": "cabfa98be5ba107dee0d6f53031117c59b810013b5fc1abb9b99a9597288ba6c",
+      "size": [
+        800,
+        602
+      ]
+    },
+    {
+      "output": "06-roof.webp",
+      "source_sha256": "21a95a3c7d8cdc6ad9e2a9e97803824fefb67e68361ac91aa2f43c2887c97476",
+      "sha256": "404ad873296a695bf9d54fabb9ba138fa2a70773187a35bf9cb35a1a2e15f18a",
+      "size": [
+        800,
+        602
+      ]
+    },
+    {
+      "output": "07-front-seats.webp",
+      "source_sha256": "c46eee833774e3aff5fb01f102ac1a7238182a8a53f8b235c5db599711020f45",
+      "sha256": "2bb4264caa6fd4820db44c5a07f5b12b10d70492232557b3fea7d42c1f0f1652",
+      "size": [
+        800,
+        602
+      ]
+    },
+    {
+      "output": "08-rear-seats.webp",
+      "source_sha256": "248356edf7efec793628ec847b96054b32d3737e10bb23e4173a20991fb47c30",
+      "sha256": "af1c10cf2035ef396abe35ce655baa8fd4ff6935c4adcaf41f9f2d064708a15c",
+      "size": [
+        800,
+        602
+      ]
+    },
+    {
+      "output": "09-cockpit.webp",
+      "source_sha256": "20ebae92defff06bbb1ecc0a76e31b9b45d117ba770d8abb0fd711c04adfce13",
+      "sha256": "b05228a7f97ec20c14b4f5894867b7568229a2543f0050be50a30aba6273ba84",
+      "size": [
+        800,
+        602
+      ]
+    },
+    {
+      "output": "10-cargo.webp",
+      "source_sha256": "8078845634c83e70d76f629a139b2789972c7d7c7d471279cdfac232328f50d0",
+      "sha256": "0e5d09ec163ae5ae871201aeb4ac860c730aaec470e4fbdbee1377b5dc044f34",
+      "size": [
+        800,
+        602
+      ]
+    },
+    {
+      "output": "11-spare.webp",
+      "source_sha256": "e6e3b0e04003f5fd8352037b35bc8c7aef223f6a569f8ca8280e7f19db13c771",
+      "sha256": "7a77afe0a060f68e6952f4223f9f593925fd69b96e7b8ac7765b162c0731f459",
+      "size": [
+        800,
+        602
+      ]
+    },
+    {
+      "output": "12-engine.webp",
+      "source_sha256": "d1c4e764a50ce27be24225be2494b94f6932ee539b0f3ca271a4f934a03aedb6",
+      "sha256": "b3637d3b97a81feb079f0c429fd5f75bf5e27daaf69d5b47c47a95d6b6f1c97f",
+      "size": [
+        800,
+        602
+      ]
+    },
+    {
+      "output": "13-rocker-detail.webp",
+      "source_sha256": "09d68e33614dac6c1dc45c269dc1222f8d852274838fca54d5fd6ddb938ad9f1",
+      "sha256": "aa4c6bca1c1f2595469f2dadaa3226f951bd10ac7377b19ac9528ef12894b285",
+      "size": [
+        800,
+        602
+      ]
+    },
+    {
+      "output": "14-rocker-detail.webp",
+      "source_sha256": "bfd9ebd9839b19e5ba666e9a80fbf2b3e622b47379c245a28bdb2c90434abf06",
+      "sha256": "9428d5b76497a1a0034389f202cb359d7f002bc3d2964d68845d2ee9d2d08b61",
+      "size": [
+        800,
+        602
+      ]
+    },
+    {
+      "output": "15-seat-wear.webp",
+      "source_sha256": "5ba66244ebc7ebd97d79aafb7dfe7f770fb123ab9c36b8630011e17dddc12d43",
+      "sha256": "58560f5454e8c6ec1ee882342030b9a6105e0fa6236cb40f1924b4045a39a27e",
+      "size": [
+        602,
+        800
+      ]
+    },
+    {
+      "output": "16-body-scuffs.webp",
+      "source_sha256": "b2919f7474ef0d8658142f55e846385e93eabbcb33648a053b6acda7e8297495",
+      "sha256": "4b6d6aca3d42034a331b758cc41ffdc2dd48d49bb3c5d13d8f47dd45fd17ec30",
+      "size": [
+        800,
+        602
+      ]
+    },
+    {
+      "output": "17-odometer.webp",
+      "source_sha256": "7ce15ca024c65fb7f154b84981c21f58a408f7f0bc6fb89ce01d2d4e9ae140ba",
+      "sha256": "e3dd83cd4a5e0565c8fd9338095fe702e6b9a210d53b5387ffbae03754b8de1c",
+      "size": [
+        800,
+        383
+      ]
+    },
+    {
+      "output": "18-front-driver-wheel.webp",
+      "source_sha256": "7d9ab1a6107bdcabfb7109baf41ac69337911f7d554d82b027d4b5a0c02715af",
+      "sha256": "0f139f9674f9fd0ef85ea908b7e8aad77f74a5d886b9f0fe92da010d68b661a8",
+      "size": [
+        800,
+        602
+      ]
+    },
+    {
+      "output": "19-rear-driver-wheel.webp",
+      "source_sha256": "eb1bd4d15b8b55f67724e5332540d7d006a154aeba47e9089070fa538f90bfdf",
+      "sha256": "1fcd00fbba7640933b036a7d1a7ae04ba133a29772c21d40c84a8f82211c914b",
+      "size": [
+        800,
+        602
+      ]
+    },
+    {
+      "output": "20-front-passenger-wheel.webp",
+      "source_sha256": "8cdb6e55e95fb534082eb3b6b1b91e79fbf0e32bb3635d4d920a3f107a02a2f8",
+      "sha256": "1161f545545496dfda3f153998c779b668b59ea64e830bcd8485adf3168b6902",
+      "size": [
+        800,
+        602
+      ]
+    },
+    {
+      "output": "21-rear-passenger-wheel.webp",
+      "source_sha256": "86f14ca4100d33e8e694a2032e145468a72789fe1f14a951e13d7e468f9de2ee",
+      "sha256": "23efb6cbe675326d4d0c2b87617d69da2c7efee592c77e7372a8d2b15fd29ff7",
+      "size": [
+        800,
+        602
+      ]
+    },
+    {
+      "output": "22-spare-wheel.webp",
+      "source_sha256": "753b0530f2f0c19c38167e1b80d105c13a367d8eafd0060619f80eb3836286ad",
+      "sha256": "6eaff756392714569d337aa135539df42acdc4378170f1a9a5e8396ece66d7f9",
+      "size": [
+        800,
+        602
+      ]
+    },
+    {
+      "output": "23-head-unit-maps.webp",
+      "source_sha256": "97149879aeb0354ed189dbc747afaaaf88ea1c008f4b1cfcbe55d4a563e20120",
+      "sha256": "9187a70bdfbbea18e3d2eab87ec646c6d2dc1a14d9589ec34ba88b9c5f1d72b6",
+      "size": [
+        800,
+        602
+      ]
+    },
+    {
+      "output": "24-head-unit-camera.webp",
+      "source_sha256": "7b6a4f6651b548f85b0b8ce82b5e2d87a9315458a322b126b81a823c97780e7c",
+      "sha256": "bfabfeb4e17b6fd39b35174a8df7c4bc338f99f0bf014b077456e4ce2bdce809",
+      "size": [
+        800,
+        602
+      ]
+    }
+  ]
+}
