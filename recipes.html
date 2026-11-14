@@ -6,6 +6,11 @@ layout: default
 <div class="home">
   <h1 class="page-heading">Recipes</h1>
 
+  <h2>Recipe notebooks</h2>
+  <p><a href="{{ '/recipes/ninja-creami/' | relative_url }}">Ninja Creami: dairy-free recipe notebook</a><br>
+    Pineapple Dole Whip, fruit sorbets, coconut experiments, and a tasting log.</p>
+
+  <h2>More recipes</h2>
   <ul class="post-list">
     {% for post in site.posts %}
       {% if post.categories contains 'recipe' %}
